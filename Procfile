@@ -1,0 +1,1 @@
+web: gunicorn NamnamBackend.wsgi --log-file -
