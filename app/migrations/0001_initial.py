@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='FacebookProfile',
             fields=[
-                ('id', models.IntegerField(serialize=False, primary_key=True)),
+                ('id', models.BigIntegerField(serialize=False, primary_key=True)),
                 ('email', models.EmailField(max_length=254)),
                 ('name', models.CharField(max_length=255)),
             ],
@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='GoogleProfile',
             fields=[
-                ('id', models.IntegerField(serialize=False, primary_key=True)),
+                ('id', models.BigIntegerField(serialize=False, primary_key=True)),
                 ('email', models.EmailField(max_length=254)),
                 ('name', models.CharField(max_length=255)),
             ],
@@ -32,9 +32,18 @@ class Migration(migrations.Migration):
             name='UserProfile',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('facebook', models.OneToOneField(to='app.FacebookProfile')),
-                ('google', models.OneToOneField(to='app.GoogleProfile')),
-                ('user', models.OneToOneField(to=settings.AUTH_USER_MODEL)),
+                ('state', models.CharField(default=b'clean', max_length=255, choices=[(b'fb', b'From Facebook'), (b'google', b'From Google'), (b'clean', b'Native')])),
+                ('user', models.OneToOneField(related_name='profile', to=settings.AUTH_USER_MODEL)),
             ],
+        ),
+        migrations.AddField(
+            model_name='googleprofile',
+            name='profile',
+            field=models.OneToOneField(related_name='google', to='app.UserProfile'),
+        ),
+        migrations.AddField(
+            model_name='facebookprofile',
+            name='profile',
+            field=models.OneToOneField(related_name='facebook', to='app.UserProfile'),
         ),
     ]
