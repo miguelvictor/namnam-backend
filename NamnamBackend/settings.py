@@ -122,11 +122,6 @@ STATICFILES_DIRS = (
 
 # OAUTH
 
-AUTHENTICATION_BACKENDS = (
-    'social.backends.facebook.FacebookOAuth2',
-    'django.contrib.auth.backends.ModelBackend',
-)
-
 OAUTH2_PROVIDER = {
     'SCOPES': {
         'read': 'Read scope',
