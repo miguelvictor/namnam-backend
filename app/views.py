@@ -21,7 +21,12 @@ def signin_google(request):
         email = request.data.get('email')
 
         user = User.objects.create_user(
-            username=email.split('@')[0], email=email, password='12345')
+            username='ANDGOREG' + email.split('@')[0],
+            password='12345',
+        )
+
+        user.email = email
+        user.save()
 
         user.profile = UserProfile()
         user.profile.state = 'google'
@@ -47,7 +52,12 @@ def signin_fb(request):
         email = request.data.get('email')
 
         user = User.objects.create_user(
-            username=email.split('@')[0], email=email, password='12345')
+            username='ANDFBREG' + email.split('@')[0],
+            password='12345',
+        )
+
+        user.email = email
+        user.save()
 
         user.profile = UserProfile()
         user.profile.state = 'fb'
@@ -61,6 +71,30 @@ def signin_fb(request):
 
 
 @api_view(['POST'])
+def signin(request):
+    if not is_client_known(request):
+        return Response('Forbidden', status=401)
+
+    try:
+        user = User.objects.get(username=request.data.get('identifier'))
+
+        if user.check_password(request.data.get('password')):
+            return get_access_token(user)
+        else:
+            return Response('400 Unauthorized', status=400)
+    except User.DoesNotExist:
+        try:
+            user = User.objects.get(email=request.data.get('identifier'))
+
+            if user.check_password(request.data.get('password')):
+                return get_access_token(user)
+            else:
+                return Response('400 Unauthorized', status=400)
+        except User.DoesNotExist:
+            return Response('404 Not Found', status=404)
+
+
+@api_view(['POST'])
 def register(request):
     if not is_client_known(request):
         return Response('Forbidden', status=401)
@@ -70,9 +104,11 @@ def register(request):
     if serialized.is_valid():
         user = User.objects.create_user(
             username=serialized.validated_data['username'],
-            email=serialized.validated_data['email'],
             password=serialized.validated_data['password'],
         )
+
+        user.email = serialized.validated_data['email']
+        user.save()
 
         user.profile = UserProfile()
         user.profile.save()
