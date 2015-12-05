@@ -1,3 +1,4 @@
+from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 
 from app.models import UserProfile, FacebookProfile, GoogleProfile
@@ -6,6 +7,8 @@ from app.utils import is_client_known, get_access_token
 
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+
+import re
 
 
 @api_view(['POST'])
@@ -75,6 +78,7 @@ def signin(request):
     if not is_client_known(request):
         return Response('Forbidden', status=401)
 
+    '''
     try:
         user = User.objects.get(username=request.data.get('identifier'))
 
@@ -92,6 +96,22 @@ def signin(request):
                 return Response('400 Unauthorized', status=400)
         except User.DoesNotExist:
             return Response('404 Not Found', status=404)
+    '''
+
+    email_pattern = r'\w+(\\.\w+)?@\w+(\\.\w+)?\\.\w{2,3}'
+
+    if re.match(email_pattern, request.data.identifier):
+        user = authenticate(
+                email=request.data.identifier, password=request.data.password)
+    else:
+        user = authenticate(
+                username=request.data.identifier,
+                password=request.data.password)
+
+    if user is not None:
+        return get_access_token(user)
+    else:
+        return Response('Unauthorized', status=400)
 
 
 @api_view(['POST'])
