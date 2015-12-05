@@ -100,19 +100,27 @@ def signin(request):
 
     email_pattern = r'\w+(\\.\w+)?@\w+(\\.\w+)?\\.\w{2,3}'
 
-    if re.match(email_pattern, request.data.get('identifier')):
-        user = authenticate(
-                email=request.data.get('identifier'),
-                password=request.data.get('password'))
-    else:
-        user = authenticate(
-                username=request.data.get('identifier'),
-                password=request.data.get('password'))
+    identifier = request.data.get('identifier')
+    password = request.data.get('password')
 
-    if user is not None:
-        return get_access_token(user)
-    else:
-        return Response('Unauthorized', status=400)
+    if re.match(email_pattern, request.data.get('identifier')):
+        try:
+            user = User.objects.get(email=identifier)
+            if user.check_password(password):
+                return get_access_token(user)
+            else:
+                return Response('Unauthorized', status=400)
+        except User.DoesNotExist:
+            return Response('User Not Found', status=404)
+
+    try:
+        user = User.objects.get(username=identifier)
+        if user.check_password(password):
+            return get_access_token(user)
+        else:
+            return Response('Unauthorized', status=400)
+    except User.DoesNotExist:
+        return Response('User Not Found', status=404)
 
 
 @api_view(['POST'])
