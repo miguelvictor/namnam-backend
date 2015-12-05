@@ -78,49 +78,26 @@ def signin(request):
     if not is_client_known(request):
         return Response('Forbidden', status=401)
 
-    '''
-    try:
-        user = User.objects.get(username=request.data.get('identifier'))
-
-        if user.check_password(request.data.get('password')):
-            return get_access_token(user)
-        else:
-            return Response('400 Unauthorized', status=400)
-    except User.DoesNotExist:
-        try:
-            user = User.objects.get(email=request.data.get('identifier'))
-
-            if user.check_password(request.data.get('password')):
-                return get_access_token(user)
-            else:
-                return Response('400 Unauthorized', status=400)
-        except User.DoesNotExist:
-            return Response('404 Not Found', status=404)
-    '''
-
-    email_pattern = r'\w+(\\.\w+)?@\w+(\\.\w+)?\\.\w{2,3}'
-
     identifier = request.data.get('identifier')
     password = request.data.get('password')
 
-    if re.match(email_pattern, request.data.get('identifier')):
+    try:
+        user = User.objects.get(username=identifier)
+
+        if user.check_password(password):
+            return get_access_token(user)
+        else:
+            return Response('Unauthorized', status=400)
+    except User.DoesNotExist:
         try:
             user = User.objects.get(email=identifier)
+
             if user.check_password(password):
                 return get_access_token(user)
             else:
                 return Response('Unauthorized', status=400)
         except User.DoesNotExist:
             return Response('User Not Found', status=404)
-
-    try:
-        user = User.objects.get(username=identifier)
-        if user.check_password(password):
-            return get_access_token(user)
-        else:
-            return Response('Unauthorized', status=400)
-    except User.DoesNotExist:
-        return Response('User Not Found', status=404)
 
 
 @api_view(['POST'])
