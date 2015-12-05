@@ -100,13 +100,14 @@ def signin(request):
 
     email_pattern = r'\w+(\\.\w+)?@\w+(\\.\w+)?\\.\w{2,3}'
 
-    if re.match(email_pattern, request.data.identifier):
+    if re.match(email_pattern, request.data.get('identifier')):
         user = authenticate(
-                email=request.data.identifier, password=request.data.password)
+                email=request.data.get('identifier'),
+                password=request.data.get('password'))
     else:
         user = authenticate(
-                username=request.data.identifier,
-                password=request.data.password)
+                username=request.data.get('identifier'),
+                password=request.data.get('password'))
 
     if user is not None:
         return get_access_token(user)
