@@ -1,4 +1,3 @@
-from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 
 from app.models import UserProfile, FacebookProfile, GoogleProfile
@@ -7,8 +6,6 @@ from app.utils import is_client_known, get_access_token
 
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-
-import re
 
 
 @api_view(['POST'])
