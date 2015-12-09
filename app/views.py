@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from django.views.generic.base import TemplateView
 
 from app.models import UserProfile, FacebookProfile, GoogleProfile
 from app.serializers import UserSerializer
@@ -119,3 +120,7 @@ def register(request):
         return get_access_token(user)
 
     return Response(serialized._errors, status=400)
+
+
+class IndexView(TemplateView):
+    template_name = 'app/index.html'
