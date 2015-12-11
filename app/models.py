@@ -34,8 +34,8 @@ class UserProfile(models.Model):
 
 
 class FacebookProfile(models.Model):
+    id = models.CharField(max_length=255)
     profile = models.OneToOneField(UserProfile, related_name='facebook')
-    id = models.BigIntegerField(primary_key=True)
     email = models.EmailField()
     name = models.CharField(max_length=255)
 
@@ -44,8 +44,8 @@ class FacebookProfile(models.Model):
 
 
 class GoogleProfile(models.Model):
+    id = models.CharField(max_length=255)
     profile = models.OneToOneField(UserProfile, related_name='google')
-    id = models.BigIntegerField(primary_key=True)
     email = models.EmailField()
     name = models.CharField(max_length=255)
 
