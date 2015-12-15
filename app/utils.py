@@ -73,3 +73,10 @@ def get_access_token(user):
         access_token=access_token)
 
     return get_token_json(access_token)
+
+
+def normalize_recipe_params(ingredients):
+    if ingredients is None or ingredients == '':
+        return []
+
+    return [int(x) for x in ingredients.split(',')]

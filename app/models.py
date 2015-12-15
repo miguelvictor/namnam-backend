@@ -1,6 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+from app import inflect
+
+
 USER_STATES = (
     ('fb', 'From Facebook'),
     ('google', 'From Google'),
@@ -51,3 +54,102 @@ class GoogleProfile(models.Model):
 
     def __unicode__(self):
         return self.name
+
+
+class RecipeType(models.Model):
+    name = models.CharField(max_length=255)
+    picture = models.URLField()
+
+    def __unicode__(self):
+        return self.name.capitalize()
+
+
+class IngredientType(models.Model):
+    name = models.CharField(max_length=255)
+    picture = models.URLField()
+
+    def __unicode__(self):
+        return self.name.capitalize()
+
+
+class Ingredient(models.Model):
+    banner = models.URLField()
+    description = models.TextField()
+    icon = models.URLField()
+    name = models.CharField(max_length=255)
+    type = models.ForeignKey(IngredientType, related_name='ingredients')
+
+    def __unicode__(self):
+        return self.name.capitalize()
+
+
+class UnitOfMeasure(models.Model):
+    name = models.CharField(max_length=255)
+
+    def __unicode__(self):
+        return self.name
+
+
+class Recipe(models.Model):
+    name = models.CharField(max_length=255)
+    description = models.TextField()
+    icon = models.URLField()
+    banner = models.URLField()
+    default_serving_size = models.IntegerField()
+    time_to_complete = models.FloatField()
+    categories = models.ManyToManyField(RecipeType, related_name='recipes')
+
+    class Meta:
+        ordering = 'name',
+
+    def __unicode__(self):
+        return self.name.capitalize()
+
+
+class RecipeComponent(models.Model):
+    recipe = models.ForeignKey(Recipe, related_name='recipe_components')
+    quantity = models.FloatField()
+    adjective = models.CharField(max_length=255, blank=True)
+    unit_of_measure = models.ForeignKey(UnitOfMeasure)
+    ingredient = models.ForeignKey(Ingredient)
+    extra = models.CharField(max_length=255, blank=True)
+
+    def __unicode__(self):
+        p = inflect.engine()
+
+        if (self.quantity).is_integer():
+            string = "%s " % str(int(self.quantity))
+        else:
+            string = "%s " % str(self.quantity)
+
+        if self.unit_of_measure.name != 'generic':
+            string += "%s of " % p.plural(
+                self.unit_of_measure.name, int(self.quantity))
+
+        if self.adjective:
+            string += "%s " % self.adjective
+
+        string += self.ingredient.name.lower()
+
+        return string
+
+
+class Step(models.Model):
+    sequence = models.IntegerField(default=1)
+    instruction = models.TextField()
+    recipe = models.ForeignKey(Recipe, related_name='steps')
+
+    def __unicode__(self):
+        return 'Step %s' % str(self.sequence)
+
+    class Meta:
+        ordering = ['sequence']
+
+
+class Rating(models.Model):
+    who = models.ForeignKey(User)
+    rating = models.IntegerField(default=0)
+    recipe = models.ForeignKey(Recipe, related_name='ratings')
+
+    def __unicode__(self):
+        return str(self.recipe) + ' ' + str(self.rating)
