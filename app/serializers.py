@@ -62,11 +62,10 @@ class RecipeOverviewSerializer(serializers.ModelSerializer):
 
 
 class RecipeTypeSerializer(serializers.HyperlinkedModelSerializer):
-    recipes = RecipeOverviewSerializer(many=True, read_only=True)
 
     class Meta:
         model = models.RecipeType
-        fields = ('pk', 'name', 'picture', 'recipes')
+        fields = ('pk', 'name', 'picture')
 
 
 class RecipeSerializer(serializers.HyperlinkedModelSerializer):
@@ -79,7 +78,7 @@ class RecipeSerializer(serializers.HyperlinkedModelSerializer):
         model = models.Recipe
         fields = ('pk', 'name', 'rating', 'reviews', 'description', 'banner',
                   'icon', 'time_to_complete', 'default_serving_size',
-                  'recipe_components', 'steps')
+                  'categories', 'recipe_components', 'steps')
 
     def get_rating(self, obj):
         ratings = models.Rating.objects.filter(recipe=obj)
