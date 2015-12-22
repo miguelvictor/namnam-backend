@@ -96,7 +96,7 @@ class Recipe(models.Model):
     icon = models.URLField()
     banner = models.URLField()
     default_serving_size = models.IntegerField()
-    time_to_complete = models.FloatField()
+    time_to_complete = models.IntegerField()
     categories = models.ManyToManyField(RecipeType, related_name='recipes')
 
     class Meta:
