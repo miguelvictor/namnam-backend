@@ -69,6 +69,7 @@ class RecipeTypeSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class RecipeSerializer(serializers.HyperlinkedModelSerializer):
+    categories = RecipeTypeSerializer(many=True, read_only=True)
     recipe_components = RecipeComponentSerializer(many=True, read_only=True)
     steps = StepSerializer(many=True, read_only=True)
     rating = serializers.SerializerMethodField()
