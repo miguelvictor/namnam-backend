@@ -33,7 +33,7 @@ class IngredientSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Ingredient
-        fields = ('pk', 'banner', 'icon', 'name', 'description')
+        fields = ('pk', 'banner', 'icon', 'name', 'description', 'type')
 
 
 class IngredientTypeSerializer(serializers.HyperlinkedModelSerializer):

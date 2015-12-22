@@ -7,9 +7,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'recipes', viewsets.RecipeViewSet)
-router.register(r'recipe-types', viewsets.RecipeTypeViewSet)
 router.register(r'ingredients', viewsets.IngredientViewSet)
-router.register(r'ingredient-types', viewsets.IngredientTypeViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls)),
