@@ -235,7 +235,7 @@
       "model":"app.ingredienttype",
       "fields":{
          "picture":"http://yahoo.com",
-         "name":"nuts"
+         "name":"Nuts"
       },
       "pk":18
    },
@@ -261,7 +261,7 @@
          "description":"A vegetable oil is a triglyceride extracted from a plant. Such oils have been part of human culture for millennia.The term \"vegetable oil\" can be narrowly defined as referring only to plant oils that are liquid at room temperature,or broadly defined without regard to a substance's state of matter at a given temperature.For this reason, vegetable oils that are solid at room temperature are sometimes called vegetable fats. Vegetable oils are composed of triglycerides, as contrasted with waxes which lack glycerin in their structure. Although many plant parts may yield oil, in commercial practice, oil is extracted primarily from seeds.",
          "banner":"http://i.imgur.com/pYexY9jl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/pYexY9js.jpg",
+         "icon":"http://i.imgur.com/pYexY9jb.jpg",
          "name":"Vegetable Oil"
       },
       "pk":1
@@ -272,7 +272,7 @@
          "description":"Onions are commonly chopped and used as an ingredient in various hearty warm dishes, and may also be used as a main ingredient in their own right, for example in French onion soup or onion chutney. They are very versatile and can be baked, boiled, braised, grilled, fried, roasted, saut\u00e9ed or eaten raw in salads.Their layered nature makes them easy to hollow out once cooked, facilitating stuffing them. Onions are a staple in Indian cuisine, used as a thickening agent for curries and gravies. Onions pickled in vinegar are eaten as a snack.",
          "banner":"http://i.imgur.com/zamxy4xl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/zamxy4xs.jpg",
+         "icon":"http://i.imgur.com/zamxy4xb.jpg",
          "name":"Onion"
       },
       "pk":2
@@ -283,7 +283,7 @@
          "description":"Salt is essential to the health of people and animals and is used universally as a seasoning. It is used in cooking, is added to manufactured foodstuffs and is often present on the table at mealtimes for individuals to sprinkle on their own food.Salt is present in most foods, but in naturally occurring foodstuffs such as meats, vegetables and fruit, it is present in very small quantities. It is often added to processed foods (such as canned foods and especially salted foods, pickled foods, and snack foods or other convenience foods), where it functions as both a preservative and a flavoring.",
          "banner":"http://i.imgur.com/zHkbbo1l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/zHkbbo1s.jpg",
+         "icon":"http://i.imgur.com/zHkbbo1b.jpg",
          "name":"Salt"
       },
       "pk":3
@@ -294,7 +294,7 @@
          "description":"Ginger is a flowering plant in the family Zingiberaceae whose rhizome, ginger root or simply ginger, is widely used as a spice or a folk medicine.Ginger is indigenous to south China, and was spread eventually to the Spice Islands, other parts of Asia and subsequently to West Africa and the Caribbean.",
          "banner":"http://i.imgur.com/dHY5Vpul.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/dHY5Vpus.jpg",
+         "icon":"http://i.imgur.com/dHY5Vpub.jpg",
          "name":"Ginger"
       },
       "pk":4
@@ -305,7 +305,7 @@
          "description":"With their rich flavor and mild acidity, tomatoes have worked their way into thousands of recipes.  You can eat them raw in salads, salsas, or sandwiches, cook them to make sauces, stuff them and bake them, or grill them on skewers with other vegetables.  Summertime is the the best season for tomatoes; those sold at other times of the year are often bland.  Indeed, better cooks often prefer canned tomatoes for their sauces over fresh out-of-season tomatoes.  Select tomatoes that are brightly colored, smooth skinned, and heavy for their size.  Don't refrigerate tomatoes--it ruins their flavor.",
          "banner":"http://i.imgur.com/f3DZwbdl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/f3DZwbds.jpg",
+         "icon":"http://i.imgur.com/f3DZwbdb.jpg",
          "name":"Tomato"
       },
       "pk":5
@@ -316,7 +316,7 @@
          "description":"A pork chop is a chop of pork (a meat chop) cut perpendicularly to the spine of the pig and usually containing a rib or part of a vertebra, served as an individual portion.",
          "banner":"http://i.imgur.com/p3CqHdll.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/p3CqHdls.jpg",
+         "icon":"http://i.imgur.com/p3CqHdlb.jpg",
          "name":"Pork Chop"
       },
       "pk":6
@@ -327,7 +327,7 @@
          "description":"Water is a transparent fluid which forms the world's streams, lakes, oceans and rain, and is the major constituent of the fluids of organisms.",
          "banner":"http://i.imgur.com/QhtOQQHl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/QhtOQQHs.jpg",
+         "icon":"http://i.imgur.com/QhtOQQHb.jpg",
          "name":"Water"
       },
       "pk":7
@@ -338,8 +338,8 @@
          "description":"Tamarind is a very well known herb and plant used by the Indians from a long time ago. The large pods of the fruit contain small seeds and a sour-pulp that, when dried, becomes extremely sour .With the increasing use of tamarind in food preparations, ready to use tamarind powder has found a market place. This is because it has a lesser fiber content, is ready to use directly in preparations and is not cumbersome or messy to use .The production process of tamarind powder comprises of first cleaning the tamarind fruit to remove the seeds and adhering dirt. The fiber is removed to the maximum extent possible. The pulp is then shredded in the shredder. It is then dried and mixed with starch to a maximum extent of 20% and then mix ground in a pin mill to form a coarse powder like mass.",
          "banner":"http://i.imgur.com/YBgnNDVl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/YBgnNDVs.jpg",
-         "name":"Tamarind soup base"
+         "icon":"http://i.imgur.com/YBgnNDVb.jpg",
+         "name":"Tamarind Soup Base"
       },
       "pk":8
    },
@@ -349,8 +349,8 @@
          "description":"Green beans usually aren't a yard long--half a yard is more typical.  Asians like to cut them into smaller pieces and add them to their stir-fried dishes. You can also boil or steam them like green beans, though they're not as sweet and juicy.  They don't store well, so use them within a few days of purchase.",
          "banner":"http://i.imgur.com/kItqj0rl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/kItqj0rs.jpg",
-         "name":"Green beans"
+         "icon":"http://i.imgur.com/kItqj0r.jpg",
+         "name":"Green Beans"
       },
       "pk":9
    },
@@ -371,7 +371,7 @@
          "description":"This is a delicious solid fat churned from milk.  It's used in baking, frying, and as a spread on toast and muffins.  Recipes that call for butter in most better cookbooks are referring to unsalted butter = sweet cream butter = sweet butter.",
          "banner":"http://i.imgur.com/lmaQe8Jl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/lmaQe8Js.jpg",
+         "icon":"http://i.imgur.com/lmaQe8Jb.jpg",
          "name":"Butter"
       },
       "pk":11
@@ -382,7 +382,7 @@
          "description":"Itlog sa manok",
          "banner":"http://i.imgur.com/MSesAYCl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/MSesAYCs.jpg",
+         "icon":"http://i.imgur.com/MSesAYCb.jpg",
          "name":"Egg"
       },
       "pk":12
@@ -393,7 +393,7 @@
          "description":"Glutinous rice or sometimes called sticky rice.One cup dried rice yields two cups cooked rice.  Notes:   Despite its name, this rice isn't sweet and it doesn't contain gluten.  Instead, it's a very sticky, short-grain rice that is widely used by Asians, who use it to make sushi and various desserts.   You can buy this as either white or black (actually a rust color) rice.",
          "banner":"http://i.imgur.com/vQYChU9l.jpg",
          "type":15,
-         "icon":"http://i.imgur.com/vQYChU9s.jpg",
+         "icon":"http://i.imgur.com/vQYChU9b.jpg",
          "name":"Glutinous Rice"
       },
       "pk":13
@@ -404,7 +404,7 @@
          "description":"This is available in liquid form (in cans or aseptic containers), frozen, and as a powder. Don't confuse coconut milk with  coconut water, which is the liquid found in the center of a fresh coconut, or with the sweetened cream of coconut powder used in mixed drinks. Varieties: Light (or \"lite\") coconut milk has less fat and about a quarter of the calories of the regular version, but doesn't taste nearly as rich. You can reduce the fat (and calories) in a can of regular coconut milk by letting it settle, and then skimming and discarding some of the thick coconut cream off the top. Lighten what's left even more by diluting it with water or chicken broth.",
          "banner":"http://i.imgur.com/dAbh69dl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/dAbh69ds.jpg",
+         "icon":"http://i.imgur.com/dAbh69db.jpg",
          "name":"Coconut Milk"
       },
       "pk":14
@@ -415,7 +415,7 @@
          "description":"White sugar is the standard table sugar we're all familiar with.Superfine sugar = ultrafine sugar = bar sugar = instant dissolving sugar = berry sugar = castor sugar = caster sugar dissolves more quickly, and is recommended for sweetening beverages, and for making meringues, cakes, souffl\u00e9s, and mousses. To make your own, grind standard granulated sugar in a food processor or blender for about a minute.  Baker's special has a grain size between standard granulated and superfine. Bakers use it in cakes because the fine granules improve the texture.  Sanding sugar has larger granules that sparkle when sprinkled on baked goods and candies. ",
          "banner":"http://i.imgur.com/ZOyc6cCl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/ZOyc6cCs.jpg",
+         "icon":"http://i.imgur.com/ZOyc6cCb.jpg",
          "name":"White Sugar"
       },
       "pk":15
@@ -426,7 +426,7 @@
          "description":"Ground meat is meat finely chopped by a meat grinder or a chopping knife. A common type of ground meat is ground beef, but many other meats are prepared ground in a similar fashion, including pork, lamb, and poultry.",
          "banner":"http://i.imgur.com/CcrjSC5l.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/CcrjSC5s.jpg",
+         "icon":"http://i.imgur.com/CcrjSC5b.jpg",
          "name":"Ground Pork"
       },
       "pk":16
@@ -437,7 +437,7 @@
          "description":"Tomato sauce refers to any of a very large number of sauces made primarily from tomatoes, usually to be served as part of a dish. Tomato sauces are common for meat and vegetables, but they are perhaps best known as sauces for pasta dishes.",
          "banner":"http://i.imgur.com/d6Pfxm3l.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/d6Pfxm3s.jpg",
+         "icon":"http://i.imgur.com/d6Pfxm3b.jpg",
          "name":"Tomato Sauce"
       },
       "pk":17
@@ -459,8 +459,8 @@
          "description":"Same as all bell peppers green and purple peppers have a slightly bitter flavor compared to red, orange and yellows are sweeter and almost fruity.",
          "banner":"http://i.imgur.com/5vFrqmyl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/5vFrqmys.jpg",
-         "name":"Green bell pepper"
+         "icon":"http://i.imgur.com/5vFrqmyb.jpg",
+         "name":"Green Bell Pepper"
       },
       "pk":19
    },
@@ -470,7 +470,7 @@
          "description":" Raw or cooked, carrots add sweetness and color to stews, soups, stir-fries, slaws, cakes, and crudit\u00e9 platters, plus they're a great source of Vitamin A.  Try to buy them with the greens still attached, they're usually fresher and sweeter that way.",
          "banner":"http://i.imgur.com/KjB3L4Vl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/KjB3L4Vs.jpg",
+         "icon":"http://i.imgur.com/KjB3L4Vb.jpg",
          "name":"Carrot"
       },
       "pk":20
@@ -481,8 +481,8 @@
          "description":"liver spread",
          "banner":"http://i.imgur.com/P3MiIuzl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/P3MiIuzs.jpg",
-         "name":"liver spread"
+         "icon":"http://i.imgur.com/P3MiIuzb.jpg",
+         "name":"Liver Spread"
       },
       "pk":21
    },
@@ -492,8 +492,8 @@
          "description":"green olives",
          "banner":"http://i.imgur.com/GHD7orJl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/GHD7orJs.jpg",
-         "name":"green olives"
+         "icon":"http://i.imgur.com/GHD7orJb.jpg",
+         "name":"Green Olive"
       },
       "pk":22
    },
@@ -503,8 +503,8 @@
          "description":"pork cube",
          "banner":"http://i.imgur.com/hDijLDdl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/hDijLDds.jpg",
-         "name":"pork cube"
+         "icon":"http://i.imgur.com/hDijLDdb.jpg",
+         "name":"Pork Cube"
       },
       "pk":23
    },
@@ -514,8 +514,8 @@
          "description":"water",
          "banner":"http://i.imgur.com/YRu4Ps8l.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/YRu4Ps8s.jpg",
-         "name":"water"
+         "icon":"http://i.imgur.com/YRu4Ps8b.jpg",
+         "name":"Water"
       },
       "pk":24
    },
@@ -525,8 +525,8 @@
          "description":"Oil for cooking",
          "banner":"http://i.imgur.com/PRhyVvCl.jpg",
          "type":8,
-         "icon":"http://i.imgur.com/PRhyVvCs.jpg",
-         "name":"Cooking oil"
+         "icon":"http://i.imgur.com/PRhyVvCb.jpg",
+         "name":"Cooking Oil"
       },
       "pk":25
    },
@@ -536,8 +536,8 @@
          "description":"Yellow onion",
          "banner":"http://i.imgur.com/kSHlmbLl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/kSHlmbLs.jpg",
-         "name":"Yellow onion"
+         "icon":"http://i.imgur.com/kSHlmbLb.jpg",
+         "name":"Yellow Onion"
       },
       "pk":26
    },
@@ -547,8 +547,8 @@
          "description":"red pepper flakes",
          "banner":"http://i.imgur.com/hXFiUv4l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/hXFiUv4s.jpg",
-         "name":"red pepper flakes"
+         "icon":"http://i.imgur.com/hXFiUv4b.jpg",
+         "name":"Red Pepper Flakes"
       },
       "pk":28
    },
@@ -558,7 +558,7 @@
          "description":"sometimes called prawns",
          "banner":"http://i.imgur.com/TK3TbRbl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/TK3TbRbs.jpg",
+         "icon":"http://i.imgur.com/TK3TbRbb.jpg",
          "name":"Shrimp"
       },
       "pk":29
@@ -569,7 +569,7 @@
          "description":"dried squid",
          "banner":"http://i.imgur.com/DiXIwlal.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/DiXIwlas.jpg",
+         "icon":"http://i.imgur.com/DiXIwlab.jpg",
          "name":"Dried Squid"
       },
       "pk":30
@@ -580,8 +580,8 @@
          "description":"coconut cream",
          "banner":"http://i.imgur.com/syMb8cMl.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/syMb8cMs.jpg",
-         "name":"coconut cream"
+         "icon":"http://i.imgur.com/syMb8cMb.jpg",
+         "name":"Coconut Cream"
       },
       "pk":31
    },
@@ -592,7 +592,7 @@
          "banner":"http://i.imgur.com/711lRPbl.png",
          "type":3,
          "icon":"http://i.imgur.com/711lRPbs.png",
-         "name":"green chillies"
+         "name":"Green Chillies"
       },
       "pk":32
    },
@@ -602,7 +602,7 @@
          "description":"Harina",
          "banner":"http://i.imgur.com/8f38znBl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/8f38znBs.jpg",
+         "icon":"http://i.imgur.com/8f38znBb.jpg",
          "name":"Flour"
       },
       "pk":33
@@ -613,8 +613,8 @@
          "description":"fish sauce",
          "banner":"http://i.imgur.com/JnwO8BVl.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/JnwO8BVs.jpg",
-         "name":"fish sauce"
+         "icon":"http://i.imgur.com/JnwO8BVb.jpg",
+         "name":"Fish Sauce"
       },
       "pk":34
    },
@@ -624,8 +624,8 @@
          "description":"Black pepper",
          "banner":"http://i.imgur.com/py5IeQQl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/py5IeQQs.jpg",
-         "name":"Black pepper"
+         "icon":"http://i.imgur.com/py5IeQQb.jpg",
+         "name":"Black Pepper"
       },
       "pk":35
    },
@@ -635,7 +635,7 @@
          "description":"Cornstarch gud",
          "banner":"http://i.imgur.com/6znDRQBl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/6znDRQBs.jpg",
+         "icon":"http://i.imgur.com/6znDRQBb.jpg",
          "name":"Cornstarch"
       },
       "pk":36
@@ -646,8 +646,8 @@
          "description":"fresh spinach",
          "banner":"http://i.imgur.com/XiCT9upl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/XiCT9ups.jpg",
-         "name":"fresh spinach"
+         "icon":"http://i.imgur.com/XiCT9upb.jpg",
+         "name":"Fresh Spinach"
       },
       "pk":37
    },
@@ -657,7 +657,7 @@
          "description":"Chicken",
          "banner":"http://i.imgur.com/D3Scz17l.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/D3Scz17s.jpg",
+         "icon":"http://i.imgur.com/D3Scz17b.jpg",
          "name":"Chicken"
       },
       "pk":38
@@ -666,10 +666,10 @@
       "model":"app.ingredient",
       "fields":{
          "description":"Soy sauce",
-         "banner":"http://i.imgur.com/gmPgHTas.jpg",
+         "banner":"http://i.imgur.com/gmPgHTab.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/gmPgHTas.jpg",
-         "name":"soy sauce"
+         "icon":"http://i.imgur.com/gmPgHTab.jpg",
+         "name":"Soy Sauce"
       },
       "pk":39
    },
@@ -679,8 +679,8 @@
          "description":"Canola oil",
          "banner":"http://i.imgur.com/quSTkMal.jpg",
          "type":8,
-         "icon":"http://i.imgur.com/quSTkMas.jpg",
-         "name":"Canola oil"
+         "icon":"http://i.imgur.com/quSTkMab.jpg",
+         "name":"Canola Oil"
       },
       "pk":41
    },
@@ -690,8 +690,8 @@
          "description":"Lemon juice",
          "banner":"http://i.imgur.com/YsxEHuml.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/YsxEHums.jpg",
-         "name":"Lemon juice"
+         "icon":"http://i.imgur.com/YsxEHumb.jpg",
+         "name":"Lemon Juice"
       },
       "pk":42
    },
@@ -701,7 +701,7 @@
          "description":"Pepper Ba",
          "banner":"http://i.imgur.com/HjY9Skgl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/HjY9Skgs.jpg",
+         "icon":"http://i.imgur.com/HjY9Skgb.jpg",
          "name":"Pepper"
       },
       "pk":43
@@ -712,8 +712,8 @@
          "description":"For bbbq",
          "banner":"http://i.imgur.com/qHpsYwal.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/qHpsYwas.jpg",
-         "name":"Barbecue sauce"
+         "icon":"http://i.imgur.com/qHpsYwab.jpg",
+         "name":"Barbecue Sauce"
       },
       "pk":44
    },
@@ -723,7 +723,7 @@
          "description":"Pepper Ba",
          "banner":"http://i.imgur.com/HjY9Skgl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/HjY9Skgs.jpg",
+         "icon":"http://i.imgur.com/HjY9Skgb.jpg",
          "name":"Pepper"
       },
       "pk":45
@@ -734,7 +734,7 @@
          "description":"Something here",
          "banner":"http://i.imgur.com/78Iv2mbl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/78Iv2mbs.jpg",
+         "icon":"http://i.imgur.com/78Iv2mbb.jpg",
          "name":"Paprika"
       },
       "pk":46
@@ -745,8 +745,8 @@
          "description":"baby bok choy",
          "banner":"http://i.imgur.com/VjfkM46l.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/VjfkM46s.jpg",
-         "name":"baby bok choy"
+         "icon":"http://i.imgur.com/VjfkM46b.jpg",
+         "name":"Baby Bok Choy"
       },
       "pk":47
    },
@@ -756,8 +756,8 @@
          "description":"shrimp",
          "banner":"http://i.imgur.com/mrFdJiel.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/mrFdJies.jpg",
-         "name":"shrimp"
+         "icon":"http://i.imgur.com/mrFdJieb.jpg",
+         "name":"Shrimp"
       },
       "pk":48
    },
@@ -767,7 +767,7 @@
          "description":"Garlic Ba",
          "banner":"http://i.imgur.com/GrIfJn9l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/GrIfJn9s.jpg",
+         "icon":"http://i.imgur.com/GrIfJn9b.jpg",
          "name":"Garlic"
       },
       "pk":49
@@ -778,8 +778,8 @@
          "description":"chicken stock",
          "banner":"http://i.imgur.com/kHIcqmRl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/kHIcqmRs.jpg",
-         "name":"chicken stock"
+         "icon":"http://i.imgur.com/kHIcqmRb.jpg",
+         "name":"Chicken Stock"
       },
       "pk":50
    },
@@ -789,7 +789,7 @@
          "description":"Gatas",
          "banner":"http://i.imgur.com/e9gVQDul.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/e9gVQDus.jpg",
+         "icon":"http://i.imgur.com/e9gVQDub.jpg",
          "name":"Milk"
       },
       "pk":51
@@ -800,8 +800,8 @@
          "description":"pork spare ribs",
          "banner":"http://i.imgur.com/N2vEtRKl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/N2vEtRKs.jpg",
-         "name":"pork spare ribs"
+         "icon":"http://i.imgur.com/N2vEtRKb.jpg",
+         "name":"Pork Spare Ribs"
       },
       "pk":52
    },
@@ -811,8 +811,8 @@
          "description":"lime",
          "banner":"http://i.imgur.com/6Rh3FGCl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/6Rh3FGCs.jpg",
-         "name":"lime"
+         "icon":"http://i.imgur.com/6Rh3FGCb.jpg",
+         "name":"Lime"
       },
       "pk":53
    },
@@ -822,8 +822,8 @@
          "description":"Powdered garlic",
          "banner":"http://i.imgur.com/vxtkZ1rl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/vxtkZ1rs.jpg",
-         "name":"Garlic powder"
+         "icon":"http://i.imgur.com/vxtkZ1rb.jpg",
+         "name":"Garlic Powder"
       },
       "pk":54
    },
@@ -833,8 +833,8 @@
          "description":"blackstrap molasses",
          "banner":"http://i.imgur.com/Tm6xexel.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/Tm6xexes.jpg",
-         "name":"blackstrap molasses"
+         "icon":"http://i.imgur.com/Tm6xexeb.jpg",
+         "name":"Blackstrap Molasses"
       },
       "pk":55
    },
@@ -844,8 +844,8 @@
          "description":"hoisin sauce",
          "banner":"http://i.imgur.com/VBVxEGVl.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/VBVxEGVs.jpg",
-         "name":"hoisin sauce"
+         "icon":"http://i.imgur.com/VBVxEGVb.jpg",
+         "name":"Hoisin Sauce"
       },
       "pk":56
    },
@@ -855,8 +855,8 @@
          "description":"sesame seeds",
          "banner":"http://i.imgur.com/4iCUgr6l.jpg",
          "type":15,
-         "icon":"http://i.imgur.com/4iCUgr6s.jpg",
-         "name":"sesame seeds"
+         "icon":"http://i.imgur.com/4iCUgr6b.jpg",
+         "name":"Sesame Seeds"
       },
       "pk":57
    },
@@ -866,7 +866,7 @@
          "description":"Suka",
          "banner":"http://i.imgur.com/5ujbyh1l.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/5ujbyh1s.jpg",
+         "icon":"http://i.imgur.com/5ujbyh1b.jpg",
          "name":"Vinegar "
       },
       "pk":58
@@ -877,8 +877,8 @@
          "description":"pork adobo paksiw",
          "banner":"http://i.imgur.com/ypB1Ow8l.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/ypB1Ow8s.jpg",
-         "name":"pork adobo paksiw"
+         "icon":"http://i.imgur.com/ypB1Ow8b.jpg",
+         "name":"Pork Adobo Paksiw"
       },
       "pk":59
    },
@@ -888,8 +888,8 @@
          "description":"jeprox",
          "banner":"http://i.imgur.com/MFNIKh1l.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/MFNIKh1s.jpg",
-         "name":"jeprox"
+         "icon":"http://i.imgur.com/MFNIKh1b.jpg",
+         "name":"Jeprox"
       },
       "pk":60
    },
@@ -899,8 +899,8 @@
          "description":"shrimp",
          "banner":"http://i.imgur.com/mrFdJiel.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/mrFdJies.jpg",
-         "name":"shrimp"
+         "icon":"http://i.imgur.com/mrFdJieb.jpg",
+         "name":"Shrimp"
       },
       "pk":61
    },
@@ -910,8 +910,8 @@
          "description":"Tablea gud",
          "banner":"http://i.imgur.com/LZo48Fql.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/LZo48Fqs.jpg",
-         "name":"Tablea "
+         "icon":"http://i.imgur.com/LZo48Fqb.jpg",
+         "name":"Tablea"
       },
       "pk":64
    },
@@ -921,7 +921,7 @@
          "description":"AKA bolabola",
          "banner":"http://i.imgur.com/uP1400kl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/uP1400ks.jpg",
+         "icon":"http://i.imgur.com/uP1400kb.jpg",
          "name":"Meatball"
       },
       "pk":65
@@ -932,8 +932,8 @@
          "description":"Lumpia are pastries of Chinese origin similar to fresh popiah or fried spring rolls popular in Southeast Asia. The term lumpia derives from Hokkien lunpia , which is an alternate term for popiah. The recipes, both fried and fresh versions, were brought by",
          "banner":"http://i.imgur.com/Mk9twVnl.jpg",
          "type":11,
-         "icon":"http://i.imgur.com/Mk9twVns.jpg",
-         "name":"Lumpia wrapper"
+         "icon":"http://i.imgur.com/Mk9twVnb.jpg",
+         "name":"Lumpia Wrapper"
       },
       "pk":66
    },
@@ -943,8 +943,8 @@
          "description":"spam",
          "banner":"http://i.imgur.com/229H6Rjl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/229H6Rjs.jpg",
-         "name":"spam"
+         "icon":"http://i.imgur.com/229H6Rjb.jpg",
+         "name":"Spam"
       },
       "pk":67
    },
@@ -954,7 +954,7 @@
          "description":"Squid ",
          "banner":"http://i.imgur.com/HKOAZADl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/HKOAZADs.jpg",
+         "icon":"http://i.imgur.com/HKOAZADb.jpg",
          "name":"Squid"
       },
       "pk":69
@@ -965,8 +965,8 @@
          "description":"flour",
          "banner":"http://i.imgur.com/t9odmoJl.jpg",
          "type":13,
-         "icon":"http://i.imgur.com/t9odmoJs.jpg",
-         "name":"flour"
+         "icon":"http://i.imgur.com/t9odmoJb.jpg",
+         "name":"Flour"
       },
       "pk":70
    },
@@ -987,8 +987,8 @@
          "description":"Pork shoulder",
          "banner":"http://i.imgur.com/Cz1lBtzl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/Cz1lBtzs.jpg",
-         "name":"Pork shoulder"
+         "icon":"http://i.imgur.com/Cz1lBtzb.jpg",
+         "name":"Pork Shoulder"
       },
       "pk":72
    },
@@ -998,7 +998,7 @@
          "description":"Banana",
          "banner":"http://i.imgur.com/sXUDWJul.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/sXUDWJus.jpg",
+         "icon":"http://i.imgur.com/sXUDWJub.jpg",
          "name":"Banana"
       },
       "pk":73
@@ -1020,7 +1020,7 @@
          "description":"Raw rice",
          "banner":"http://i.imgur.com/gCfzldrl.jpg",
          "type":15,
-         "icon":"http://i.imgur.com/gCfzldrs.jpg",
+         "icon":"http://i.imgur.com/gCfzldrb.jpg",
          "name":"Rice"
       },
       "pk":75
@@ -1031,7 +1031,7 @@
          "description":"Throughout the eons, lemons have been used for a multitude of nonculinary purposes\u2014as an epilepsy remedy, a toothpaste, an invisible ink and a bleaching agent as well as in witchcraft. Though it originated in Southeast Asia, the lemon is now cultivated in",
          "banner":"http://i.imgur.com/zk02aRTl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/zk02aRTs.jpg",
+         "icon":"http://i.imgur.com/zk02aRTb.jpg",
          "name":"Lemon"
       },
       "pk":76
@@ -1042,7 +1042,7 @@
          "description":"Black pepper is a flowering vine in the family Piperaceae, cultivated for its fruit, which is usually dried and used as a spice and seasoning.",
          "banner":"http://i.imgur.com/JcEPQASl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/JcEPQASs.jpg",
+         "icon":"http://i.imgur.com/JcEPQASb.jpg",
          "name":"Peppercorn"
       },
       "pk":77
@@ -1053,7 +1053,7 @@
          "description":"Pork Bacon",
          "banner":"http://i.imgur.com/tMtq676l.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/tMtq676s.jpg",
+         "icon":"http://i.imgur.com/tMtq676b.jpg",
          "name":"Bacon"
       },
       "pk":78
@@ -1075,8 +1075,8 @@
          "description":"white wine",
          "banner":"http://i.imgur.com/heXDeafl.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/heXDeafs.jpg",
-         "name":"white wine"
+         "icon":"http://i.imgur.com/heXDeafb.jpg",
+         "name":"White Wine"
       },
       "pk":80
    },
@@ -1086,7 +1086,7 @@
          "description":"Parsley",
          "banner":"http://i.imgur.com/RkMwlZ7l.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/RkMwlZ7s.jpg",
+         "icon":"http://i.imgur.com/RkMwlZ7b.jpg",
          "name":"Parsley"
       },
       "pk":81
@@ -1097,7 +1097,7 @@
          "description":"Mayonnaise",
          "banner":"http://i.imgur.com/qSqECpUl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/qSqECpUs.jpg",
+         "icon":"http://i.imgur.com/qSqECpUb.jpg",
          "name":"Mayonnaise"
       },
       "pk":83
@@ -1119,7 +1119,7 @@
          "description":"A vegetable",
          "banner":"http://i.imgur.com/OxnW8Bll.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/OxnW8Bls.jpg",
+         "icon":"http://i.imgur.com/OxnW8Blb.jpg",
          "name":"Dill"
       },
       "pk":85
@@ -1130,8 +1130,8 @@
          "description":"tilapia",
          "banner":"http://i.imgur.com/DhGcflvl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/DhGcflvs.jpg",
-         "name":"tilapia"
+         "icon":"http://i.imgur.com/DhGcflvb.jpg",
+         "name":"Tilapia"
       },
       "pk":86
    },
@@ -1141,8 +1141,8 @@
          "description":"onion powder",
          "banner":"http://i.imgur.com/14V7Fh8l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/14V7Fh8s.jpg",
-         "name":"onion powder"
+         "icon":"http://i.imgur.com/14V7Fh8b.jpg",
+         "name":"Onion Powder"
       },
       "pk":87
    },
@@ -1152,8 +1152,8 @@
          "description":"breadcrumbs",
          "banner":"http://i.imgur.com/UpcucX1l.jpg",
          "type":19,
-         "icon":"http://i.imgur.com/UpcucX1s.jpg",
-         "name":"breadcrumbs"
+         "icon":"http://i.imgur.com/UpcucX1b.jpg",
+         "name":"Breadcrumbs"
       },
       "pk":88
    },
@@ -1163,8 +1163,8 @@
          "description":"tuna",
          "banner":"http://i.imgur.com/jKKFZLWl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/jKKFZLWs.jpg",
-         "name":"tuna"
+         "icon":"http://i.imgur.com/jKKFZLWb.jpg",
+         "name":"Tuna"
       },
       "pk":89
    },
@@ -1174,8 +1174,8 @@
          "description":"chili",
          "banner":"http://i.imgur.com/OO6mV6Ml.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/OO6mV6Ms.jpg",
-         "name":"chili"
+         "icon":"http://i.imgur.com/OO6mV6Mb.jpg",
+         "name":"Chili"
       },
       "pk":90
    },
@@ -1185,8 +1185,8 @@
          "description":"ginger powder",
          "banner":"http://i.imgur.com/JwJyK3ol.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/JwJyK3os.jpg",
-         "name":"ginger powder"
+         "icon":"http://i.imgur.com/JwJyK3ob.jpg",
+         "name":"Ginger Powder"
       },
       "pk":91
    },
@@ -1196,7 +1196,7 @@
          "description":"Vanilla extract is a solution containing the flavor compound vanillin as the primary ingredient. Pure vanilla extract is made by macerating and percolating vanilla beans in a solution of ethyl alcohol and water. ",
          "banner":"http://i.imgur.com/iilbf93l.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/iilbf93s.jpg",
+         "icon":"http://i.imgur.com/iilbf93b.jpg",
          "name":"Vanilla Extract"
       },
       "pk":92
@@ -1207,7 +1207,7 @@
          "description":"In the United States, a maraschino cherry is a preserved, sweetened cherry, typically made from light-colored sweet cherries such as the Royal Ann, Rainier, or Gold varieties.",
          "banner":"http://i.imgur.com/UscOlTjl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/UscOlTjs.jpg",
+         "icon":"http://i.imgur.com/UscOlTjb.jpg",
          "name":"Maraschino cherry"
       },
       "pk":93
@@ -1218,8 +1218,8 @@
          "description":"Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either in their own juices or a syrup. When served as an appetizer or as a dessert, a fruit salad is sometimes known as a fruit cocktail or fruit cup. In different f",
          "banner":"http://i.imgur.com/POLQHT0l.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/POLQHT0s.jpg",
-         "name":"Fruit cocktail"
+         "icon":"http://i.imgur.com/POLQHT0b.jpg",
+         "name":"Fruit Cocktail"
       },
       "pk":94
    },
@@ -1229,8 +1229,8 @@
          "description":"Table cream is a dairy product composed of the higher-butterfat layer skimmed from the top of milk before homogenization. In un-homogenized milk, the fat, which is less dense, will eventually rise to the top. In the industrial production of cream.",
          "banner":"http://i.imgur.com/YTZuWQEl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/YTZuWQEs.jpg",
-         "name":"Table cream"
+         "icon":"http://i.imgur.com/YTZuWQEb.jpg",
+         "name":"Table Cream"
       },
       "pk":95
    },
@@ -1240,8 +1240,8 @@
          "description":"Worcestershire sauce, sometimes shortened to Worcester sauce, is a fermented liquid condiment of complex mixture, of British origin from Worcester.",
          "banner":"http://i.imgur.com/LWPQXovl.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/LWPQXovs.jpg",
-         "name":"Worcestershire sauce"
+         "icon":"http://i.imgur.com/LWPQXovb.jpg",
+         "name":"Worcestershire Sauce"
       },
       "pk":96
    },
@@ -1252,7 +1252,7 @@
          "banner":"http://i.imgur.com/gZu2sw8.jpg",
          "type":4,
          "icon":"http://i.imgur.com/gZu2sw8t.jpg",
-         "name":"Ribeye steak"
+         "name":"Ribeye Steak"
       },
       "pk":97
    },
@@ -1262,8 +1262,8 @@
          "description":"Crushed red pepper or red pepper flakes is a condiment consisting of dried and crushed (as opposed to ground) red chili peppers.",
          "banner":"http://i.imgur.com/pceN7Ul.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/pceN7Uls.jpg",
-         "name":"Red chili pepper flake"
+         "icon":"http://i.imgur.com/pceN7Ulb.jpg",
+         "name":"Red Chili Pepper Flake"
       },
       "pk":98
    },
@@ -1273,8 +1273,8 @@
          "description":"Olive oil is a fat obtained from the olive (the fruit of Olea europaea; family Oleaceae), a traditional tree crop of the Mediterranean Basin. The oil is produced by pressing whole olives and is commonly used in cooking, cosmetics, pharmaceuticals, and soa",
          "banner":"http://i.imgur.com/bygd6Rc.jpg",
          "type":8,
-         "icon":"http://i.imgur.com/bygd6Rcs.jpg",
-         "name":"Olive oil"
+         "icon":"http://i.imgur.com/bygd6Rcb.jpg",
+         "name":"Olive Oil"
       },
       "pk":99
    },
@@ -1284,7 +1284,7 @@
          "description":"Dioscorea alata, known as purple yam and many other names, is a species of yam, a tuberous root vegetable.\r\n\r\nPurple yam is used in a variety of desserts, as well as a flavor for ice cream, milk, Swiss rolls, tarts, cookies, cakes, and other pastries. In the Philippines, it is known as ube and is often eaten boiled or as a sweetened jam called ube halay\u00e1; the latter is a popular ingredient in the iced dessert called halo-halo. In Maharashtra, the stir-fried chips are eaten during religious fasting.",
          "banner":"http://i.imgur.com/XOdvhmNl.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/XOdvhmNs.jpg",
+         "icon":"http://i.imgur.com/XOdvhmNb.jpg",
          "name":"Purple Yam"
       },
       "pk":100
@@ -1295,8 +1295,8 @@
          "description":"The coconut tree is a member of the family Arecaceae. It is the only accepted species in the genus Cocos. The term coconut can refer to the entire coconut palm, the seed, or the fruit, which, botanically, is a drupe, not a nut.",
          "banner":"http://i.imgur.com/skFcELtl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/skFcELts.jpg",
-         "name":"Young coconut meat"
+         "icon":"http://i.imgur.com/skFcELtb.jpg",
+         "name":"Young Coconut Meat"
       },
       "pk":101
    },
@@ -1306,8 +1306,8 @@
          "description":"Coconut water is the clear liquid inside young green coconuts. In early development, it serves as a suspension for the endosperm of the coconut during the nuclear phase of development.",
          "banner":"http://i.imgur.com/TtNy6lll.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/TtNy6lls.jpg",
-         "name":"Coconut water"
+         "icon":"http://i.imgur.com/TtNy6llb.jpg",
+         "name":"Coconut Water"
       },
       "pk":102
    },
@@ -1317,8 +1317,8 @@
          "description":"Milk that is fresh.",
          "banner":"http://i.imgur.com/LmG2r9ll.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/LmG2r9ls.jpg",
-         "name":"Fresh milk"
+         "icon":"http://i.imgur.com/LmG2r9lb.jpg",
+         "name":"Fresh Milk"
       },
       "pk":103
    },
@@ -1328,8 +1328,8 @@
          "description":"Condensed milk is cow's milk from which water has been removed. It is most often found in the form of sweetened condensed milk, with sugar added, and the two terms \"condensed milk\" and \"sweetened condensed milk\" are often used synonymously today. ",
          "banner":"http://i.imgur.com/l7TimqNl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/l7TimqNs.jpg",
-         "name":"Condensed milk"
+         "icon":"http://i.imgur.com/l7TimqNb.jpg",
+         "name":"Condensed Milk"
       },
       "pk":104
    },
@@ -1339,7 +1339,7 @@
          "description":"Evaporated milk, also known as dehydrated milk, is a shelf-stable canned milk product with about 60% of the water removed from fresh milk. It differs from sweetened condensed milk, which contains added sugar. Sweetened condensed milk requires less process",
          "banner":"http://i.imgur.com/4YdsMzDl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/4YdsMzDs.jpg",
+         "icon":"http://i.imgur.com/4YdsMzDb.jpg",
          "name":"Evaporated Milk"
       },
       "pk":105
@@ -1361,7 +1361,7 @@
          "description":"Macaroni is a variety of dry pasta in the shape of narrow tubes originating from Italy and made with durum wheat, usually without egg.",
          "banner":"http://i.imgur.com/Eh9w7GDl.jpg",
          "type":14,
-         "icon":"http://i.imgur.com/Eh9w7GDs.jpg",
+         "icon":"http://i.imgur.com/Eh9w7GDb.jpg",
          "name":"Macaroni"
       },
       "pk":107
@@ -1372,8 +1372,8 @@
          "description":"cream",
          "banner":"http://i.imgur.com/qJTHs5tl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/qJTHs5ts.jpg",
-         "name":"cream"
+         "icon":"http://i.imgur.com/qJTHs5tb.jpg",
+         "name":"Cream"
       },
       "pk":108
    },
@@ -1383,7 +1383,7 @@
          "description":"Celery is a cultivated plant, variety in the family Apiaceae, commonly used as a vegetable. Depending on location, either its stalks, or its hypocotyl, are eaten and used in cooking.",
          "banner":"http://i.imgur.com/8x09RMCl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/8x09RMCs.jpg",
+         "icon":"http://i.imgur.com/8x09RMCb.jpg",
          "name":"Celery"
       },
       "pk":109
@@ -1394,7 +1394,7 @@
          "description":"A relish is a cooked, pickled, or chopped vegetable or fruit food item typically used as a condiment in particular to enhance a staple.",
          "banner":"http://i.imgur.com/sqVOxC6l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/sqVOxC6s.jpg",
+         "icon":"http://i.imgur.com/sqVOxC6b.jpg",
          "name":"Relish"
       },
       "pk":110
@@ -1405,7 +1405,7 @@
          "description":"Duck eggs are typically larger than chicken eggs; they vary a bit in size but are usually around 50 percent larger than your standard jumbo chicken egg. They can come in all sorts of colors, varying mostly by breed. ",
          "banner":"http://i.imgur.com/iLuY629l.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/iLuY629s.jpg",
+         "icon":"http://i.imgur.com/iLuY629b.jpg",
          "name":"Duck Egg"
       },
       "pk":111
@@ -1416,7 +1416,7 @@
          "description":"Broccoli is an edible green plant in the cabbage family whose large flowerhead is eaten as a vegetable.",
          "banner":"http://i.imgur.com/5a6nz7nl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/5a6nz7ns.jpg",
+         "icon":"http://i.imgur.com/5a6nz7nb.jpg",
          "name":"Broccoli"
       },
       "pk":112
@@ -1427,7 +1427,7 @@
          "description":"Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein.",
          "banner":"http://i.imgur.com/aBAknSVl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/aBAknSVs.jpg",
+         "icon":"http://i.imgur.com/aBAknSVb.jpg",
          "name":"Cheese"
       },
       "pk":113
@@ -1438,7 +1438,7 @@
          "description":"The cashew tree is a tropical evergreen tree that produces the cashew seed and the cashew apple.",
          "banner":"http://i.imgur.com/2myWqetl.jpg",
          "type":18,
-         "icon":"http://i.imgur.com/2myWqets.jpg",
+         "icon":"http://i.imgur.com/2myWqetb.jpg",
          "name":"Cashew"
       },
       "pk":114
@@ -1449,8 +1449,8 @@
          "description":"The pineapple is a tropical plant with edible multiple fruit consisting of coalesced berries, and the most economically significant plant in the Bromeliaceae family.",
          "banner":"http://i.imgur.com/QnnvjKpl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/QnnvjKps.jpg",
-         "name":"pineapple"
+         "icon":"http://i.imgur.com/QnnvjKpb.jpg",
+         "name":"Pineapple"
       },
       "pk":115
    },
@@ -1460,7 +1460,7 @@
          "description":"A raisin is a dried grape. Raisins are produced in many regions of the world and may be eaten raw or used in cooking, baking and brewing.",
          "banner":"http://i.imgur.com/esewARUl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/esewARUs.jpg",
+         "icon":"http://i.imgur.com/esewARUb.jpg",
          "name":"Raisin"
       },
       "pk":116
@@ -1471,8 +1471,8 @@
          "description":"Green onions are young shoots of bulb onions, and are milder tasting than large bulb onions. They have a small, not fully developed white bulb end with long green stalks. Both parts are edible. Scallions are considered younger than a green onion",
          "banner":"http://i.imgur.com/Y5yf0yvl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/Y5yf0yvs.jpg",
-         "name":"green onion"
+         "icon":"http://i.imgur.com/Y5yf0yvb.jpg",
+         "name":"Green Onion"
       },
       "pk":117
    },
@@ -1483,7 +1483,7 @@
          "banner":"http://i.imgur.com/oKqOnXNl.png",
          "type":15,
          "icon":"http://i.imgur.com/oKqOnXNs.png",
-         "name":"Kernel corn"
+         "name":"Kernel Corn"
       },
       "pk":118
    },
@@ -1493,8 +1493,8 @@
          "description":"The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum. Each pod contains several peas. Pea pods are botanically fruit, since they contain seeds and developed from the ovary of a flower.",
          "banner":"http://i.imgur.com/hWycgWXl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/hWycgWXs.jpg",
-         "name":"Green pea"
+         "icon":"http://i.imgur.com/hWycgWXb.jpg",
+         "name":"Green Pea"
       },
       "pk":119
    },
@@ -1504,7 +1504,7 @@
          "description":"Is a cooked sausage, traditionally grilled or steamed and served in a sliced bun as a sandwich",
          "banner":"http://i.imgur.com/qaBwXjOl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/qaBwXjOs.jpg",
+         "icon":"http://i.imgur.com/qaBwXjOb.jpg",
          "name":"Hotdog"
       },
       "pk":120
@@ -1515,8 +1515,8 @@
          "description":"Bay leaf refers to the aromatic leaves of several plants used in cooking. These include: Bay laurel. Fresh or dried bay leaves are used in cooking for their distinctive flavor and fragrance.",
          "banner":"http://i.imgur.com/PrSv3Tml.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/PrSv3Tms.jpg",
-         "name":"Bay leaf"
+         "icon":"http://i.imgur.com/PrSv3Tmb.jpg",
+         "name":"Bay Leaf"
       },
       "pk":121
    },
@@ -1526,8 +1526,8 @@
          "description":"Dried bay leaf refers to the aromatic leaves of several plants used in cooking.\r\n\r\nIf eaten whole, bay leaves are pungent and have a sharp, bitter taste. As with many spices and flavorings, the fragrance of the bay leaf is more noticeable than its taste. When dried, the fragrance is herbal, slightly floral, and somewhat similar to oregano and thyme. Myrcene, which is a component of many essential oils used in perfumery, can be extracted from the bay leaf. They also contain the essential oil eugenol.",
          "banner":"http://i.imgur.com/PrSv3Tml.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/PrSv3Tms.jpg",
-         "name":"Dried Bay leaf"
+         "icon":"http://i.imgur.com/PrSv3Tmb.jpg",
+         "name":"Dried Bay Leaf"
       },
       "pk":122
    },
@@ -1537,8 +1537,8 @@
          "description":"Sugar is the generalized name for sweet, short-chain, soluble carbohydrates, many of which are used in food. ",
          "banner":"http://i.imgur.com/1k4vQGxl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/1k4vQGxs.jpg",
-         "name":"Granulated white sugar"
+         "icon":"http://i.imgur.com/1k4vQGxb.jpg",
+         "name":"Granulated White Sugar"
       },
       "pk":123
    },
@@ -1548,7 +1548,7 @@
          "description":"White bread typically refers to breads made from wheat flour from which the bran and the germ layers have been removed (and set aside) from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour. This milling process can give white flour a longer shelf life by removing the natural oils from the whole grain.",
          "banner":"http://i.imgur.com/ETfXriKl.jpg",
          "type":19,
-         "icon":"http://i.imgur.com/ETfXriKs.jpg",
+         "icon":"http://i.imgur.com/ETfXriKb.jpg",
          "name":"White Bread"
       },
       "pk":124
@@ -1559,7 +1559,7 @@
          "description":"Ham is pork that has been preserved through salting, smoking, or wet curing. It was traditionally made only from the hind leg of swine, and referred to that specific cut of pork.",
          "banner":"http://i.imgur.com/YanSnMzl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/YanSnMzs.jpg",
+         "icon":"http://i.imgur.com/YanSnMzb.jpg",
          "name":"Ham"
       },
       "pk":125
@@ -1570,8 +1570,8 @@
          "description":"baking soda",
          "banner":"http://i.imgur.com/7Qr8iczl.jpg",
          "type":13,
-         "icon":"http://i.imgur.com/7Qr8iczs.jpg",
-         "name":"baking soda"
+         "icon":"http://i.imgur.com/7Qr8iczb.jpg",
+         "name":"Baking Soda"
       },
       "pk":126
    },
@@ -1581,8 +1581,8 @@
          "description":"oat",
          "banner":"http://i.imgur.com/1F15VLgl.jpg",
          "type":15,
-         "icon":"http://i.imgur.com/1F15VLgs.jpg",
-         "name":"oat"
+         "icon":"http://i.imgur.com/1F15VLgb.jpg",
+         "name":"Oat"
       },
       "pk":127
    },
@@ -1592,8 +1592,8 @@
          "description":"almond",
          "banner":"http://i.imgur.com/AesJiOYl.jpg",
          "type":18,
-         "icon":"http://i.imgur.com/AesJiOYs.jpg",
-         "name":"almond"
+         "icon":"http://i.imgur.com/AesJiOYb.jpg",
+         "name":"Almond"
       },
       "pk":128
    },
@@ -1603,8 +1603,8 @@
          "description":"chocolate chip",
          "banner":"http://i.imgur.com/IKLtwvFl.jpg",
          "type":20,
-         "icon":"http://i.imgur.com/IKLtwvFs.jpg",
-         "name":"chocolate chip"
+         "icon":"http://i.imgur.com/IKLtwvFb.jpg",
+         "name":"Chocolate Chip"
       },
       "pk":129
    },
@@ -1614,8 +1614,8 @@
          "description":"apple",
          "banner":"http://i.imgur.com/wpDFnYgl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/wpDFnYgs.jpg",
-         "name":"apple"
+         "icon":"http://i.imgur.com/wpDFnYgb.jpg",
+         "name":"Apple"
       },
       "pk":130
    },
@@ -1625,8 +1625,8 @@
          "description":"apple juice",
          "banner":"http://i.imgur.com/oJB5HUfl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/oJB5HUfs.jpg",
-         "name":"apple juice"
+         "icon":"http://i.imgur.com/oJB5HUfb.jpg",
+         "name":"Apple Juice"
       },
       "pk":131
    },
@@ -1636,8 +1636,8 @@
          "description":"honey",
          "banner":"http://i.imgur.com/deivsXtl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/deivsXts.jpg",
-         "name":"honey"
+         "icon":"http://i.imgur.com/deivsXtb.jpg",
+         "name":"Honey"
       },
       "pk":132
    },
@@ -1647,8 +1647,8 @@
          "description":"cinnamon powder",
          "banner":"http://i.imgur.com/95yOrIUl.jpg",
          "type":13,
-         "icon":"http://i.imgur.com/95yOrIUs.jpg",
-         "name":"cinnamon powder"
+         "icon":"http://i.imgur.com/95yOrIUb.jpg",
+         "name":"Cinnamon Powder"
       },
       "pk":133
    },
@@ -1658,8 +1658,8 @@
          "description":"fruit cocktail",
          "banner":"http://i.imgur.com/POLQHT0l.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/POLQHT0s.jpg",
-         "name":"fruit cocktail"
+         "icon":"http://i.imgur.com/POLQHT0b.jpg",
+         "name":"Fruit Cocktail"
       },
       "pk":134
    },
@@ -1669,8 +1669,8 @@
          "description":"cherry",
          "banner":"http://i.imgur.com/NcTkt6Jl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/NcTkt6Js.jpg",
-         "name":"cherry"
+         "icon":"http://i.imgur.com/NcTkt6Jb.jpg",
+         "name":"Cherry"
       },
       "pk":135
    },
@@ -1680,8 +1680,8 @@
          "description":"baking powder",
          "banner":"http://i.imgur.com/SFJVq7nl.jpg",
          "type":13,
-         "icon":"http://i.imgur.com/SFJVq7ns.jpg",
-         "name":"baking powder"
+         "icon":"http://i.imgur.com/SFJVq7nb.jpg",
+         "name":"Baking Powder"
       },
       "pk":136
    },
@@ -1691,7 +1691,7 @@
          "description":"pandan flavoring",
          "banner":"http://i.imgur.com/NdMuF0nl.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/NdMuF0ns.jpg",
+         "icon":"http://i.imgur.com/NdMuF0nb.jpg",
          "name":"Pandan"
       },
       "pk":137
@@ -1702,8 +1702,8 @@
          "description":"walnut",
          "banner":"http://i.imgur.com/lQhfMPGl.jpg",
          "type":18,
-         "icon":"http://i.imgur.com/lQhfMPGs.jpg",
-         "name":"walnut"
+         "icon":"http://i.imgur.com/lQhfMPGb.jpg",
+         "name":"Walnut"
       },
       "pk":138
    },
@@ -1714,7 +1714,7 @@
          "banner":"http://i.imgur.com/LmRPNFWl.png",
          "type":9,
          "icon":"http://i.imgur.com/LmRPNFWs.png",
-         "name":"crab meat"
+         "name":"Crab Meat"
       },
       "pk":139
    },
@@ -1724,8 +1724,8 @@
          "description":"sesame oil",
          "banner":"http://i.imgur.com/B0EZUnul.jpg",
          "type":8,
-         "icon":"http://i.imgur.com/B0EZUnus.jpg",
-         "name":"sesame oil"
+         "icon":"http://i.imgur.com/B0EZUnub.jpg",
+         "name":"Sesame Oil"
       },
       "pk":140
    },
@@ -1736,7 +1736,7 @@
          "banner":"http://i.imgur.com/LmRPNFWl.png",
          "type":9,
          "icon":"http://i.imgur.com/LmRPNFWs.png",
-         "name":"crab meat"
+         "name":"Crab meat"
       },
       "pk":141
    },
@@ -1746,8 +1746,8 @@
          "description":"sesame oil",
          "banner":"http://i.imgur.com/B0EZUnul.jpg",
          "type":8,
-         "icon":"http://i.imgur.com/B0EZUnus.jpg",
-         "name":"sesame oil"
+         "icon":"http://i.imgur.com/B0EZUnub.jpg",
+         "name":"Sesame Oil"
       },
       "pk":142
    },
@@ -1758,7 +1758,7 @@
          "banner":"http://i.imgur.com/SZRKIfxl.png",
          "type":2,
          "icon":"http://i.imgur.com/SZRKIfxs.png",
-         "name":"sweet onion"
+         "name":"Sweet Onion"
       },
       "pk":143
    },
@@ -1768,8 +1768,8 @@
          "description":"Wontons are the Chinese answer to ravioli--small packets of meat encased in a thin noodle wrapper.  The wrappers are made of flour, eggs, and water, and, once filled with meat, can be easily folded and pinched into shape.    While assembling the wontons, keep the stack of wrappers moist by covering them with a damp towel.  You can seal the dumplings with a \"glue\" made with cornstarch and water.    The wrappers come in different thicknesses.  The thin ones work best in soups, while the thicker ones are best for frying.  Look for stacks of them wrapped in plastic in the refrigerator cases of Asian markets.   Store them in the refrigerator or freezer, but let them come to room temperature before using.",
          "banner":"http://i.imgur.com/7O6lQIdl.jpg",
          "type":14,
-         "icon":"http://i.imgur.com/7O6lQIds.jpg",
-         "name":"Wonton wrapper"
+         "icon":"http://i.imgur.com/7O6lQIdb.jpg",
+         "name":"Wonton Wrapper"
       },
       "pk":144
    },
@@ -1779,8 +1779,8 @@
          "description":"sea snail",
          "banner":"http://i.imgur.com/ZfD6mkDl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/ZfD6mkDs.jpg",
-         "name":"sea snail"
+         "icon":"http://i.imgur.com/ZfD6mkDb.jpg",
+         "name":"Sea Snail"
       },
       "pk":145
    },
@@ -1790,8 +1790,8 @@
          "description":"spinach",
          "banner":"http://i.imgur.com/XiCT9upl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/XiCT9ups.jpg",
-         "name":"spinach"
+         "icon":"http://i.imgur.com/XiCT9upb.jpg",
+         "name":"Spinach"
       },
       "pk":146
    },
@@ -1801,8 +1801,8 @@
          "description":"calamari rings",
          "banner":"http://i.imgur.com/XnJPS2Ql.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/XnJPS2Qs.jpg",
-         "name":"calamari rings"
+         "icon":"http://i.imgur.com/XnJPS2Qb.jpg",
+         "name":"Calamari Rings"
       },
       "pk":147
    },
@@ -1812,8 +1812,8 @@
          "description":"bottle gourd",
          "banner":"http://i.imgur.com/RduXKwcl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/RduXKwcs.jpg",
-         "name":"bottle gourd"
+         "icon":"http://i.imgur.com/RduXKwcb.jpg",
+         "name":"Bottle Gourd"
       },
       "pk":148
    },
@@ -1823,8 +1823,8 @@
          "description":"ground chicken",
          "banner":"http://i.imgur.com/AqC6GCIl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/AqC6GCIs.jpg",
-         "name":"ground chicken"
+         "icon":"http://i.imgur.com/AqC6GCIb.jpg",
+         "name":"Ground Chicken"
       },
       "pk":149
    },
@@ -1834,8 +1834,8 @@
          "description":"white mushroom",
          "banner":"http://i.imgur.com/D7paNkul.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/D7paNkus.jpg",
-         "name":"white mushroom"
+         "icon":"http://i.imgur.com/D7paNkub.jpg",
+         "name":"White Mushroom"
       },
       "pk":150
    },
@@ -1845,7 +1845,7 @@
          "description":"chicken powder",
          "banner":"http://i.imgur.com/ilZBdIvl.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/ilZBdIvs.jpg",
+         "icon":"http://i.imgur.com/ilZBdIvb.jpg",
          "name":"Chicken Powder"
       },
       "pk":151
@@ -1856,8 +1856,8 @@
          "description":"ice",
          "banner":"http://i.imgur.com/QnvwMtEl.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/QnvwMtEs.jpg",
-         "name":"ice"
+         "icon":"http://i.imgur.com/QnvwMtEb.jpg",
+         "name":"Ice"
       },
       "pk":152
    },
@@ -1867,8 +1867,8 @@
          "description":"purple yam",
          "banner":"http://i.imgur.com/1Y4NwUnl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/1Y4NwUns.jpg",
-         "name":"purple yam"
+         "icon":"http://i.imgur.com/1Y4NwUnb.jpg",
+         "name":"Purple Yam"
       },
       "pk":153
    },
@@ -1878,7 +1878,7 @@
          "description":"Peach",
          "banner":"http://i.imgur.com/GssLEjBl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/GssLEjBs.jpg",
+         "icon":"http://i.imgur.com/GssLEjBb.jpg",
          "name":"Peach"
       },
       "pk":154
@@ -1890,7 +1890,7 @@
          "banner":"http://i.imgur.com/Je8qdFkl.png",
          "type":13,
          "icon":"http://i.imgur.com/Je8qdFks.png",
-         "name":"pastry dough"
+         "name":"Pastry Dough"
       },
       "pk":155
    },
@@ -1900,7 +1900,7 @@
          "description":"Lime juice",
          "banner":"http://i.imgur.com/xleCKcQl.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/xleCKcQs.jpg",
+         "icon":"http://i.imgur.com/xleCKcQb.jpg",
          "name":"Lime"
       },
       "pk":156
@@ -1911,8 +1911,8 @@
          "description":"cocoa powder",
          "banner":"http://i.imgur.com/waTwCahl.jpg",
          "type":13,
-         "icon":"http://i.imgur.com/waTwCahs.jpg",
-         "name":"cocoa powder"
+         "icon":"http://i.imgur.com/waTwCahb.jpg",
+         "name":"Cocoa Powder"
       },
       "pk":157
    },
@@ -1922,8 +1922,8 @@
          "description":"candy",
          "banner":"http://i.imgur.com/sxASOsTl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/sxASOsTs.jpg",
-         "name":"candy"
+         "icon":"http://i.imgur.com/sxASOsTb.jpg",
+         "name":"Candy"
       },
       "pk":158
    },
@@ -1933,8 +1933,8 @@
          "description":"icing",
          "banner":"http://i.imgur.com/y3exBzWl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/y3exBzWs.jpg",
-         "name":"icing"
+         "icon":"http://i.imgur.com/y3exBzWb.jpg",
+         "name":"Icing"
       },
       "pk":159
    },
@@ -1944,8 +1944,8 @@
          "description":"The liver of mammals, fowl, and fish is commonly eaten as food by humans. Domestic pig, ox, lamb, calf, chicken, and goose livers are widely available from butchers and supermarkets.\r\n\r\nLiver can be baked, boiled, broiled, fried, stir-fried, or eaten raw (asbeh nayeh or sawda naye in Lebanese cuisine, liver sashimi). In many preparations, pieces of liver are combined with pieces of meat or kidneys, like in the various forms of Middle Eastern mixed grill (e.g. meurav Yerushalmi). Liver is often made into spreads. Well-known examples include liver p\u00e2t\u00e9, foie gras, chopped liver, and leverpostej. Liver sausages such as Braunschweiger and liverwurst are also a valued meal. Liver sausages may also be used as spreads. A traditional South African delicacy, namely Skilpadjies, is made of minced lamb's liver wrapped in netvet (caul fat), and grilled over an open fire.",
          "banner":"http://i.imgur.com/YsEmrMIl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/YsEmrMIs.jpg",
-         "name":"Pork liver"
+         "icon":"http://i.imgur.com/YsEmrMIb.jpg",
+         "name":"Pork Liver"
       },
       "pk":160
    },
@@ -1955,8 +1955,8 @@
          "description":"Pork is the culinary name for meat from the domestic pig. It is the most commonly consumed meat worldwide, with evidence of pig husbandry dating back to 5000 BC. Pork is eaten both freshly cooked and preserved.",
          "banner":"http://i.imgur.com/MlasNfml.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/MlasNfms.jpg",
-         "name":"Pork meat"
+         "icon":"http://i.imgur.com/MlasNfmb.jpg",
+         "name":"Pork Meat"
       },
       "pk":161
    },
@@ -1966,8 +1966,8 @@
          "description":"The sirloin steak is a steak cut from the back of the animal. In U.S. butchery, the steak is cut from the rear back portion of the animal, continuing off the short loin from which T-bone, porterhouse, and club steaks are cut.",
          "banner":"http://i.imgur.com/5eOQDw6l.jpg",
          "type":19,
-         "icon":"http://i.imgur.com/5eOQDw6s.jpg",
-         "name":"Beef sirloin"
+         "icon":"http://i.imgur.com/5eOQDw6b.jpg",
+         "name":"Beef Sirloin"
       },
       "pk":162
    },
@@ -1977,7 +1977,7 @@
          "description":"Calamondin is an important citrofortunella, meaning that it is an intergenetic hybrid between a member of the genus citrus and the kumquat belonging to Fortunella.",
          "banner":"http://i.imgur.com/gZ0g8pVl.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/gZ0g8pVs.jpg",
+         "icon":"http://i.imgur.com/gZ0g8pVb.jpg",
          "name":"Calamansi"
       },
       "pk":163
@@ -1988,8 +1988,8 @@
          "description":"Kale or borecole (boerenkool) is a vegetable of the plant species Brassica oleracea with green or purple leaves, in which the central leaves do not form a head. It is considered to be closer to wild cabbage than most domesticated forms of vegetables.",
          "banner":"http://i.imgur.com/yb0df4Ll.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/yb0df4Ls.jpg",
-         "name":"Dried kale leaf"
+         "icon":"http://i.imgur.com/yb0df4Lb.jpg",
+         "name":"Dried Kale Leaf"
       },
       "pk":164
    },
@@ -2010,7 +2010,7 @@
          "description":"Chayote is an edible plant belonging to the gourd family Cucurbitaceae, along with melons, cucumbers and squash.",
          "banner":"http://i.imgur.com/8B48KPTl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/8B48KPTs.jpg",
+         "icon":"http://i.imgur.com/8B48KPTb.jpg",
          "name":"Sayote"
       },
       "pk":166
@@ -2021,7 +2021,7 @@
          "description":"Moringa oleifera is the most widely cultivated species of the genus Moringa, which is the only genus in the family Moringaceae. English common names include: moringa, drumstick tree, horseradish tree, ben oil tree, or benzoil tree.",
          "banner":"http://i.imgur.com/HgOoQlrl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/HgOoQlrs.jpg",
+         "icon":"http://i.imgur.com/HgOoQlrb.jpg",
          "name":"Malunggay"
       },
       "pk":167
@@ -2033,7 +2033,7 @@
          "banner":"http://i.imgur.com/kPWY5xal.png",
          "type":1,
          "icon":"http://i.imgur.com/kPWY5xas.png",
-         "name":"Italian seasoning"
+         "name":"Italian Seasoning"
       },
       "pk":168
    },
@@ -2043,8 +2043,8 @@
          "description":"Rock salt",
          "banner":"http://i.imgur.com/VDO8N7El.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/VDO8N7Es.jpg",
-         "name":"Sea salt"
+         "icon":"http://i.imgur.com/VDO8N7Eb.jpg",
+         "name":"Sea Salt"
       },
       "pk":169
    },
@@ -2054,8 +2054,8 @@
          "description":"A type of cheese",
          "banner":"http://i.imgur.com/PxZjDtbl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/PxZjDtbs.jpg",
-         "name":"Parmesan cheese"
+         "icon":"http://i.imgur.com/PxZjDtbb.jpg",
+         "name":"Parmesan Cheese"
       },
       "pk":170
    },
@@ -2065,8 +2065,8 @@
          "description":"A type of cheese",
          "banner":"http://i.imgur.com/j5XCf3cl.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/j5XCf3cs.jpg",
-         "name":"Mozarella cheese"
+         "icon":"http://i.imgur.com/j5XCf3cb.jpg",
+         "name":"Mozarella Cheese"
       },
       "pk":171
    },
@@ -2076,8 +2076,8 @@
          "description":"Marinara sauce",
          "banner":"http://i.imgur.com/8VAuv1fl.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/8VAuv1fs.jpg",
-         "name":"Marinara sauce"
+         "icon":"http://i.imgur.com/8VAuv1fb.jpg",
+         "name":"Marinara Sauce"
       },
       "pk":172
    },
@@ -2087,7 +2087,7 @@
          "description":"The most popular pasta variety, spaghetti (Italian for \"little strings\") works best with light tomato or cream sauces.  Don't use it in pasta salads.   \r\n\r\nSubstitutes:  linguine (wider) or spaghettini (thinner version of spaghetti) OR fettucine (ribbons, not strands) OR vermicelli (thinner still) OR angel hair (thinner still) OR spaghetti squash (lower in calories)  ",
          "banner":"http://i.imgur.com/fn9CxKol.jpg",
          "type":14,
-         "icon":"http://i.imgur.com/fn9CxKos.jpg",
+         "icon":"http://i.imgur.com/fn9CxKob.jpg",
          "name":"Spaghetti Noodle"
       },
       "pk":173
@@ -2109,7 +2109,7 @@
          "description":"Ube extract",
          "banner":"http://i.imgur.com/CURliSwl.jpg",
          "type":16,
-         "icon":"http://i.imgur.com/CURliSws.jpg",
+         "icon":"http://i.imgur.com/CURliSwb.jpg",
          "name":"Ube Extract"
       },
       "pk":175
@@ -2120,8 +2120,8 @@
          "description":"Adds color to food",
          "banner":"http://i.imgur.com/JDxX4F7l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/JDxX4F7s.jpg",
-         "name":"Food coloring"
+         "icon":"http://i.imgur.com/JDxX4F7b.jpg",
+         "name":"Food Coloring"
       },
       "pk":176
    },
@@ -2131,7 +2131,7 @@
          "description":"Latik",
          "banner":"http://i.imgur.com/JCwt03tl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/JCwt03ts.jpg",
+         "icon":"http://i.imgur.com/JCwt03tb.jpg",
          "name":"Latik"
       },
       "pk":177
@@ -2142,8 +2142,8 @@
          "description":"Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of molasses.",
          "banner":"http://i.imgur.com/co71d2Nl.jpg",
          "type":6,
-         "icon":"http://i.imgur.com/co71d2Ns.jpg",
-         "name":"brown sugar"
+         "icon":"http://i.imgur.com/co71d2Nb.jpg",
+         "name":"Brown Bugar"
       },
       "pk":178
    },
@@ -2153,8 +2153,8 @@
          "description":"Purple onions, sometimes called red onions, are cultivars of the onion with purplish red skin and white flesh tinged with red. These onions tend to be medium to large in size and have a mild to sweet flavor.",
          "banner":"http://i.imgur.com/KB7F0JDl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/KB7F0JDs.jpg",
-         "name":"red onion"
+         "icon":"http://i.imgur.com/KB7F0JDb.jpg",
+         "name":"Red Onion"
       },
       "pk":179
    },
@@ -2164,8 +2164,8 @@
          "description":"white vinegar",
          "banner":"http://i.imgur.com/zAki15tl.jpg",
          "type":7,
-         "icon":"http://i.imgur.com/zAki15ts.jpg",
-         "name":"white vinegar"
+         "icon":"http://i.imgur.com/zAki15tb.jpg",
+         "name":"White Vinegar"
       },
       "pk":180
    },
@@ -2175,8 +2175,8 @@
          "description":"orange chicken tender",
          "banner":"http://i.imgur.com/QOOgsqHl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/QOOgsqHs.jpg",
-         "name":"orange chicken tender"
+         "icon":"http://i.imgur.com/QOOgsqHb.jpg",
+         "name":"Orange Chicken Tender"
       },
       "pk":181
    },
@@ -2186,8 +2186,8 @@
          "description":"Duck sauce is a condiment with a sweet and sour flavor and a translucent orange appearance similar to a thin jelly.",
          "banner":"http://i.imgur.com/XpGTCB0l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/XpGTCB0s.jpg",
-         "name":"orange sauce"
+         "icon":"http://i.imgur.com/XpGTCB0b.jpg",
+         "name":"Orange Sauce"
       },
       "pk":182
    },
@@ -2197,8 +2197,8 @@
          "description":"Scallions are most commonly referred to as green onions in the United States. They are a variety of young onions with a long, thin white base that has not yet developed into a bulb and long straight green stalks that look like giant chives. Both the white base and the green stalks are commonly eaten.",
          "banner":"http://i.imgur.com/wlwHj4Ul.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/wlwHj4Us.jpg",
-         "name":"scallion"
+         "icon":"http://i.imgur.com/wlwHj4Ub.jpg",
+         "name":"Scallion"
       },
       "pk":183
    },
@@ -2208,8 +2208,8 @@
          "description":"chicken teriyaki",
          "banner":"http://i.imgur.com/JoxIVJcl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/JoxIVJcs.jpg",
-         "name":"chicken teriyaki"
+         "icon":"http://i.imgur.com/JoxIVJcb.jpg",
+         "name":"Chicken Teriyaki"
       },
       "pk":184
    },
@@ -2219,8 +2219,8 @@
          "description":"lettuce",
          "banner":"http://i.imgur.com/ItzQZJml.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/ItzQZJms.jpg",
-         "name":"lettuce"
+         "icon":"http://i.imgur.com/ItzQZJmb.jpg",
+         "name":"Lettuce"
       },
       "pk":185
    },
@@ -2230,8 +2230,8 @@
          "description":"teriyaki sauce",
          "banner":"http://i.imgur.com/swiqDvAl.jpg",
          "type":10,
-         "icon":"http://i.imgur.com/swiqDvAs.jpg",
-         "name":"teriyaki sauce"
+         "icon":"http://i.imgur.com/swiqDvAb.jpg",
+         "name":"Teriyaki Sauce"
       },
       "pk":186
    },
@@ -2241,8 +2241,8 @@
          "description":"chicken gizzard",
          "banner":"http://i.imgur.com/hWTrSM5l.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/hWTrSM5s.jpg",
-         "name":"chicken gizzard"
+         "icon":"http://i.imgur.com/hWTrSM5b.jpg",
+         "name":"Chicken Gizzard"
       },
       "pk":187
    },
@@ -2252,8 +2252,8 @@
          "description":"chicken liver",
          "banner":"http://i.imgur.com/cqjdDiXl.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/cqjdDiXs.jpg",
-         "name":"chicken liver"
+         "icon":"http://i.imgur.com/cqjdDiXb.jpg",
+         "name":"Chicken Liver"
       },
       "pk":188
    },
@@ -2263,8 +2263,8 @@
          "description":"lemon grass",
          "banner":"http://i.imgur.com/6vFHaaKl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/6vFHaaKs.jpg",
-         "name":"lemon grass"
+         "icon":"http://i.imgur.com/6vFHaaKb.jpg",
+         "name":"Lemon Grass"
       },
       "pk":189
    },
@@ -2274,8 +2274,8 @@
          "description":"banana leaf",
          "banner":"http://i.imgur.com/2y4kCPCl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/2y4kCPCs.jpg",
-         "name":"banana leaf"
+         "icon":"http://i.imgur.com/2y4kCPCb.jpg",
+         "name":"Banana Leaf"
       },
       "pk":190
    },
@@ -2285,8 +2285,8 @@
          "description":"green papaya",
          "banner":"http://i.imgur.com/U7OIkDml.jpg",
          "type":3,
-         "icon":"http://i.imgur.com/U7OIkDms.jpg",
-         "name":"green papaya"
+         "icon":"http://i.imgur.com/U7OIkDmb.jpg",
+         "name":"Green Papaya"
       },
       "pk":191
    },
@@ -2296,8 +2296,8 @@
          "description":"chicken thigh",
          "banner":"http://i.imgur.com/NaTAqp9l.jpg",
          "type":5,
-         "icon":"http://i.imgur.com/NaTAqp9s.jpg",
-         "name":"chicken thigh"
+         "icon":"http://i.imgur.com/NaTAqp9b.jpg",
+         "name":"Chicken Thigh"
       },
       "pk":192
    },
@@ -2307,8 +2307,8 @@
          "description":"red chili pepper",
          "banner":"http://i.imgur.com/hXFiUv4l.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/hXFiUv4s.jpg",
-         "name":"red chili pepper"
+         "icon":"http://i.imgur.com/hXFiUv4b.jpg",
+         "name":"Red Chili Pepper"
       },
       "pk":193
    },
@@ -2318,8 +2318,8 @@
          "description":"kale leaves",
          "banner":"http://i.imgur.com/JWYzZ2ml.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/JWYzZ2ms.jpg",
-         "name":"kale leaves"
+         "icon":"http://i.imgur.com/JWYzZ2mb.jpg",
+         "name":"Kale Leaves"
       },
       "pk":194
    },
@@ -2329,8 +2329,8 @@
          "description":"shrimp paste",
          "banner":"http://i.imgur.com/X0Bqv4zl.jpg",
          "type":9,
-         "icon":"http://i.imgur.com/X0Bqv4zs.jpg",
-         "name":"shrimp paste"
+         "icon":"http://i.imgur.com/X0Bqv4zb.jpg",
+         "name":"Shrimp Paste"
       },
       "pk":195
    },
@@ -2340,7 +2340,7 @@
          "description":"These wheat noodles are made with eggs, which adds flavor, color, and body.   They're often used to make chow mein (in which the cooked noodles are formed into a pancake and fried on both sides) and lo mein (in which the noodles are stir-fried along with the other ingredients).   Chow mein noodles are usually cut a bit thinner than lo mein noodles, but the two can be used interchangeably.  Chinese egg noodles are available both fresh and dried; and some are flavored with shrimp.  Cook fresh noodles in boiling water for about 3 minutes, dried for about 5 minutes.  Don't confuse these with fried chow mein noodles, which are used in Americanized Chinese dishes, particularly Chinese chicken salad.  Some brands are labeled \"imitation noodles\"; these aren't made with eggs, but have yellow food coloring added.   \r\n\r\nSubstitutes:  egg roll wrappers (slices into noodles) or Chinese wheat noodles (more delicate) or crispy chow mein noodles (Americans often use these to make chow mein.) or fettucine OR linguine or spaghetti (round, not square) OR rice",
          "banner":"http://i.imgur.com/H6LZP7kl.jpg",
          "type":14,
-         "icon":"http://i.imgur.com/H6LZP7ks.jpg",
+         "icon":"http://i.imgur.com/H6LZP7kb.jpg",
          "name":"Egg Noddles"
       },
       "pk":196
@@ -2351,8 +2351,8 @@
          "description":"snow",
          "banner":"http://i.imgur.com/65B2gPel.jpg",
          "type":17,
-         "icon":"http://i.imgur.com/65B2gPes.jpg",
-         "name":"snow"
+         "icon":"http://i.imgur.com/65B2gPeb.jpg",
+         "name":"Snow"
       },
       "pk":197
    },
@@ -2362,8 +2362,8 @@
          "description":"oyster sauce",
          "banner":"http://i.imgur.com/cX2hjXIl.jpg",
          "type":1,
-         "icon":"http://i.imgur.com/cX2hjXIs.jpg",
-         "name":"oyster sauce"
+         "icon":"http://i.imgur.com/cX2hjXIb.jpg",
+         "name":"Oyster Sauce"
       },
       "pk":198
    },
@@ -2373,8 +2373,8 @@
          "description":"eggplant",
          "banner":"http://i.imgur.com/0ScFoyFl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/0ScFoyFs.jpg",
-         "name":"eggplant"
+         "icon":"http://i.imgur.com/0ScFoyFb.jpg",
+         "name":"Eggplant"
       },
       "pk":199
    },
@@ -2384,8 +2384,8 @@
          "description":"yellow bell pepper",
          "banner":"http://i.imgur.com/KN1htnTl.jpg",
          "type":2,
-         "icon":"http://i.imgur.com/KN1htnTs.jpg",
-         "name":"yellow bell pepper"
+         "icon":"http://i.imgur.com/KN1htnTb.jpg",
+         "name":"Yellow Bell Pepper"
       },
       "pk":200
    },
@@ -2395,8 +2395,8 @@
          "description":"pork",
          "banner":"http://i.imgur.com/27t3KETl.jpg",
          "type":4,
-         "icon":"http://i.imgur.com/27t3KETs.jpg",
-         "name":"pork"
+         "icon":"http://i.imgur.com/27t3KETb.jpg",
+         "name":"Pork"
       },
       "pk":201
    },
@@ -2407,7 +2407,7 @@
          "banner":"http://i.imgur.com/mXGzvy4l.png",
          "type":2,
          "icon":"http://i.imgur.com/mXGzvy4s.png",
-         "name":"taro leaves"
+         "name":"Taro Leaves"
       },
       "pk":202
    },
@@ -2417,8 +2417,8 @@
          "description":"Cheddar cheese is a relatively hard, off-white, sometimes \"sharp\"-tasting, natural cheese. Originating in the English village of Cheddar in Somerset, cheeses of this style are produced beyond this region and in several countries around the world.",
          "banner":"http://i.imgur.com/VCdzqWpl.jpg",
          "type":11,
-         "icon":"http://i.imgur.com/VCdzqWps.jpg",
-         "name":"Cheddar cheese"
+         "icon":"http://i.imgur.com/VCdzqWpb.jpg",
+         "name":"Cheddar Cheese"
       },
       "pk":203
    },
@@ -2546,7 +2546,7 @@
          ],
          "description":"Filipino soup cooked with pork. Serve with rice and for additional sauce, use soy or fish sauce. If you want to, you can add what Filipinos call gabi gabi, which is a small taro root. When peeled they look like potatoes. You can add 5 to 6 of them when you add the water and make sure they are cooked through. Take them out when they are cooked because they can get too soft.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/8hV4cwds.jpg",
+         "icon":"http://i.imgur.com/8hV4cwdb.jpg",
          "name":"Pork Sinigang",
          "time_to_complete":75.0
       },
@@ -2562,8 +2562,8 @@
          ],
          "description":"Beef salpicao is a common choice of pulutan, yet it also makes as a popular and filling dinner item especially when consumed with heaps of rice. Thinking of the beef drippings swirled in a garlicky butter sauce is enough to make your mouth water, but the thought of consuming all those calories makes you want to think twice.",
          "default_serving_size":3,
-         "icon":"http://i.imgur.com/7PwC04Es.jpg",
-         "name":"Beef salpicao",
+         "icon":"http://i.imgur.com/7PwC04Eb.jpg",
+         "name":"Beef Salpicao",
          "time_to_complete":25.0
       },
       "pk":2
@@ -2577,8 +2577,8 @@
          ],
          "description":"Potato Chips",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/0EeAAYVs.jpg",
-         "name":"Homemade Potato chips",
+         "icon":"http://i.imgur.com/0EeAAYVb.jpg",
+         "name":"Homemade Potato Chips",
          "time_to_complete":2.12
       },
       "pk":4
@@ -2592,7 +2592,7 @@
          ],
          "description":"Sometimes, it\u2019s the simplest things in life that bring the most joy. Can you think of anything more comforting than a plate of fluffy Filipino scrambled eggs and toasted pandesal and a cup of steaming tsokolate in the morning?",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/7lWQlles.jpg",
+         "icon":"http://i.imgur.com/7lWQlleb.jpg",
          "name":"Filipino Scrambled Eggs",
          "time_to_complete":15.0
       },
@@ -2607,7 +2607,7 @@
          ],
          "description":"Biko is a Pinoy rice cake made from sticky rice (locally known as malagkit),fresh coconut milk, and brown sugar with caramel topping or latik.\r\n\r\nThis is referred to as kakanin (derived from the word \u201ckanin\u201d which means rice) and is often eaten as  meryenda (mid-afternoon snack).Traditionally, this delicious rice cake is placed over banana leaves in a bilao (round woven bamboo tray) and garnished with latik (cooked coconut milk residue) on top.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/RAr6R0Ps.jpg",
+         "icon":"http://i.imgur.com/RAr6R0Pb.jpg",
          "name":"Biko",
          "time_to_complete":30.0
       },
@@ -2622,7 +2622,7 @@
          ],
          "description":"Pork Giniling Kaldereta is a simple dish that you can make for lunch or dinner. If you like pork giniling and if you are a fan of kaldereta at the same time, this recipe is perfect for you. This dish is a crossover of these dishes. It can be eaten with plain white rice or with pandesal.",
          "default_serving_size":5,
-         "icon":"http://i.imgur.com/xmzPo2Ms.jpg",
+         "icon":"http://i.imgur.com/xmzPo2Mb.jpg",
          "name":"Pork Giniling Kaldereta",
          "time_to_complete":50.0
       },
@@ -2637,7 +2637,7 @@
          ],
          "description":"This version of Dried Squid in Coconut Milk Recipe (which is also known as \u201cginataang pusit\u201d) was discovered by accident. I like to eat squid. However, I prefer fresh over dried or dehydrated squid because it is tender, when cooked properly. As far as dried squid goes, all I knew is that small dried squids can be grilled. The outcome can be a crispy squid that you can easily eat, or it can also turn out to be a bit rubbery; this means that you will need to chew harder.",
          "default_serving_size":3,
-         "icon":"http://i.imgur.com/pWqmKrJs.jpg",
+         "icon":"http://i.imgur.com/pWqmKrJb.jpg",
          "name":"Dried Squid in Coconut Milk",
          "time_to_complete":13.0
       },
@@ -2653,8 +2653,8 @@
          ],
          "description":"Oven Roasted BBQ Chicken is something that I usually start to prepare on a Friday afternoon so that I can have extra time to marinate it overnight and prepare it for lunch on the weekend. Since I will be roasting the chicken over the weekend, I also have extra time to prepare the sides for this. I typically go for cornbread or potato wedges. If I wanted the meal to be more Filipino, I simply cook white rice and have it with pickled papaya, which is also known as \u201catcharang papaya\u201c.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/xWLtgvjs.jpg",
-         "name":"Oven roasted barbeque chicken",
+         "icon":"http://i.imgur.com/xWLtgvjb.jpg",
+         "name":"Oven Roasted Barbeque Chicken",
          "time_to_complete":50.0
       },
       "pk":9
@@ -2668,8 +2668,8 @@
          ],
          "description":"Bok Choy Guisado is a simple bok choy dish with shrimp and pork. This dish is ideal for ordinary days wherein you want to enjoy something simple yet delicious. It is best served with white rice and with additional fish sauce with chili pepper on the side.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/As9FCl4s.jpg",
-         "name":"Bok choy guisado",
+         "icon":"http://i.imgur.com/As9FCl4b.jpg",
+         "name":"Bok Choy Guisado",
          "time_to_complete":35.0
       },
       "pk":10
@@ -2685,7 +2685,7 @@
          ],
          "description":"One of our favorite activities together is trying out new restaurants and re-visiting favorite ones. She\u2019s down from Northern California for my birthday week and we\u2019ve spent the last few days eating to our hearts\u2019 content. ",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/u9atxFMs.jpg",
+         "icon":"http://i.imgur.com/u9atxFMb.jpg",
          "name":"Shrimp-charon",
          "time_to_complete":20.0
       },
@@ -2700,7 +2700,7 @@
          ],
          "description":"My secret in making this Asian Spare Ribs really tasty comes from 2 sources: the marinade and the basting sauce. The marinade is composed of soy sauce, lime juice, garlic powder, pepper, and blackstrap molasses. It is something like my yummy pork belly marinade less the banana ketchup and made sweeter.The basting sauce is simply Hoisin sauce, nothing more.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/lxAOJh7s.jpg",
+         "icon":"http://i.imgur.com/lxAOJh7b.jpg",
          "name":"Asian Style Spare Ribs",
          "time_to_complete":70.0
       },
@@ -2709,13 +2709,13 @@
    {
       "model":"app.recipe",
       "fields":{
-         "banner":"http://i.imgur.com/ibgW2Irs.jpg",
+         "banner":"http://i.imgur.com/ibgW2Irb.jpg",
          "categories":[
             3
          ],
          "description":"Pork Adobo Paksiw with Jeprox and Shrimp Fried Rice is more than complete for breakfast or even brunch. It is the ideal Pinoy Breakfast, if you have a big day ahead. The combination of all the dishes blended well. I enjoyed this meal and I had enough energy for more than half of the day. I even skipped lunch since I still was not hungry and just had a light snack in the afternoon. I guess that eating like a king during breakfast really pays well.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/ibgW2Irs.jpg",
+         "icon":"http://i.imgur.com/ibgW2Irb.jpg",
          "name":"Pork Adobo Paksiw with Jeprox and Shrimp Fried Rice",
          "time_to_complete":70.0
       },
@@ -2731,7 +2731,7 @@
          ],
          "description":"Champorado was a great part of my childhood, a dish which associate with a caring heart and giving spirit.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/dhQpYiss.jpg",
+         "icon":"http://i.imgur.com/dhQpYisb.jpg",
          "name":"Champorado",
          "time_to_complete":45.0
       },
@@ -2747,7 +2747,7 @@
          ],
          "description":"Meatball Adobo with Shrimp Fried Rice and Egg is something that I came-up with after combining two dishes that I recently prepared. I had this meal for breakfast and it was the first time that I will be having both together as a meal.",
          "default_serving_size":1,
-         "icon":"http://i.imgur.com/4heVYLXs.jpg",
+         "icon":"http://i.imgur.com/4heVYLXb.jpg",
          "name":"Meatball Adobo with Shrimp Fried Rice and Egg",
          "time_to_complete":40.0
       },
@@ -2765,7 +2765,7 @@
          ],
          "description":"A recipe I know all Filipinos are proud of! Lumpia (shanghai type) is a type of egg roll, except it's mainly filled with meat. You could use pork or beef or both! It's a yummy recipe and great to serve as finger food. I like to use both beef and pork but you can substitute one for the other. VERY EASY!",
          "default_serving_size":20,
-         "icon":"http://i.imgur.com/aB783txs.jpg",
+         "icon":"http://i.imgur.com/aB783txb.jpg",
          "name":"Lumpia (Shanghai)",
          "time_to_complete":80.0
       },
@@ -2781,7 +2781,7 @@
          ],
          "description":"Calamared Para nato",
          "default_serving_size":5,
-         "icon":"http://i.imgur.com/Zt76nnis.jpg",
+         "icon":"http://i.imgur.com/Zt76nnib.jpg",
          "name":"Calamari",
          "time_to_complete":4.5
       },
@@ -2797,7 +2797,7 @@
          ],
          "description":"Luncheon meat such as Spam is good to have for breakfast. I like mine crispy so that I can enjoy it with better with either bread or fried rice. Sometimes I eat my crispy spam steak with Filipino pandesal, and there are times when I eat it with sinangag (Filipino garlic fried rice) with banana ketchup and fried egg (I call it Spamsilog). Yum yum or shall I say #nomnomnom and #happytummy.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/kMuif8ks.jpg",
+         "icon":"http://i.imgur.com/kMuif8kb.jpg",
          "name":"Crispy Spam Steak",
          "time_to_complete":30.0
       },
@@ -2813,7 +2813,7 @@
          ],
          "description":"Rice has been a part of a Filipino breakfast ever since I can recall. Meals like tapsilog, tosilog, and dried fish with rice are often served for the first meal of the day. Pork Tapa with Fried Banana and Salted Egg is another breakfast option that you should consider. It is delicious and will surely give you the energy that you need to start the day.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/4heVYLXs.jpg",
+         "icon":"http://i.imgur.com/4heVYLXb.jpg",
          "name":"Pork Tapa with Fried Banana and Salted Egg",
          "time_to_complete":40.0
       },
@@ -2828,7 +2828,7 @@
          ],
          "description":"Quick, Easy and delicious! Will remind you of Island Fiestas!",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/RRVhnxQs.jpg",
+         "icon":"http://i.imgur.com/RRVhnxQb.jpg",
          "name":"Pancit",
          "time_to_complete":40.0
       },
@@ -2846,8 +2846,8 @@
          ],
          "description":"Chicken adobo oh yeah!",
          "default_serving_size":5,
-         "icon":"http://i.imgur.com/dLlU0wHs.jpg",
-         "name":"Chicken adobo",
+         "icon":"http://i.imgur.com/dLlU0wHb.jpg",
+         "name":"Chicken Adobo",
          "time_to_complete":75.0
       },
       "pk":21
@@ -2862,7 +2862,7 @@
          ],
          "description":"Having Scrambled Eggs with Sun Dried Tomato and Bacon for breakfast will surely give you the energy to start your day right. Aside from the energy that it provides, Scrambled Eggs with Sun Dried Tomato and Bacon is also delicious. I love to have it with either toast or buttermilk pancakes. You can also eat it with garlic-fried rice.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/g9h4WqGs.jpg",
+         "icon":"http://i.imgur.com/g9h4WqGb.jpg",
          "name":"Scrambled Eggs with Sun Dried Tomato and Bacon",
          "time_to_complete":17.0
       },
@@ -2879,7 +2879,7 @@
          ],
          "description":"Drunken Mussels makes a good appetizer. This is best eaten with warm toast bread or with croutons. I tried to make the recipe as simple as possible so that you can follow easily. So, what makes the mussels drunk? It\u2019s white wine.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/ADph4Eps.jpg",
+         "icon":"http://i.imgur.com/ADph4Epb.jpg",
          "name":"Drunken Mussels",
          "time_to_complete":28.0
       },
@@ -2897,7 +2897,7 @@
          ],
          "description":"Fried Embutido is another way to make your delicious embutido taste better. This recipe is applicable to both pork embutido, chicken embutido, and even turkey embutido. This is one of my favorite ways to enjoy my favorite Filipino Meatloaf.",
          "default_serving_size":10,
-         "icon":"http://i.imgur.com/mgXjLi3s.jpg",
+         "icon":"http://i.imgur.com/mgXjLi3b.jpg",
          "name":"Fried Embutido",
          "time_to_complete":20.0
       },
@@ -2913,7 +2913,7 @@
          ],
          "description":"I had this Deviled Eggs for a snack and it was satisfying. This Simple Deviled Egg recipe will help you make your own with ease. If you are tired of just having boiled eggs, give it a little taste and style by making something like this.",
          "default_serving_size":2,
-         "icon":"http://i.imgur.com/NUdgdZEs.jpg",
+         "icon":"http://i.imgur.com/NUdgdZEb.jpg",
          "name":"Deviled Egg",
          "time_to_complete":15.0
       },
@@ -2928,7 +2928,7 @@
          ],
          "description":"Crispy Tilapia Sticks is a delicious crispy flavorful tilapia fillet dish. The fish is seasoned and dredged in a beading of Panko breadcrumbs, then deep fried until crispy. Crispy Tilapia Sticks makes a delicious appetizer and I think that it goes well with fresh homemade ranch dressing.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/bJAA2FWs.jpg",
+         "icon":"http://i.imgur.com/bJAA2FWb.jpg",
          "name":"Crispy Tilapia Sticks",
          "time_to_complete":25.0
       },
@@ -2943,7 +2943,7 @@
          ],
          "description":"Tuna Kilawin or Kilawing Tuna is a Filipino dish wherein cubed fresh tuna is mixed with vinegar, lemon, or calamansi and chilled until the fish is gradually cured by the vinegar or citrus juices. Tuna kilawin is considered as an appetizer in the Philippines \u2013 it is also a popular pulutan amongst many beer-loving individuals.",
          "default_serving_size":3,
-         "icon":"http://i.imgur.com/h8kgMrns.jpg",
+         "icon":"http://i.imgur.com/h8kgMrnb.jpg",
          "name":"Easy Tuna Kilawin",
          "time_to_complete":40.0
       },
@@ -2958,8 +2958,8 @@
          ],
          "description":"Leche flan is a custard dessert with a layer of soft caramel on top, as opposed to cr\u00e8me br\u00fbl\u00e9e, which is pudding with a hard caramel top. The dish is eaten throughout the world",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/ZRmtAUGs.jpg",
-         "name":"Leche flan",
+         "icon":"http://i.imgur.com/ZRmtAUGb.jpg",
+         "name":"Leche Flan",
          "time_to_complete":55.0
       },
       "pk":28
@@ -2973,8 +2973,8 @@
          ],
          "description":"Fruit salad that is Filipino style.",
          "default_serving_size":10,
-         "icon":"http://i.imgur.com/Rvr49gjs.jpg",
-         "name":"Pinoy fruit salad",
+         "icon":"http://i.imgur.com/Rvr49gjb.jpg",
+         "name":"Pinoy Fruit Salad",
          "time_to_complete":40.0
       },
       "pk":29
@@ -2988,7 +2988,7 @@
          ],
          "description":"Ube Halaya can be eaten as it is for dessert. It is sweet and has a thick sticky texture. It is also one of the ingredients of a favorite Filipino Summer Dessert called Halo-halo.  I enjoy ube halaya either by itself, with halo-halo (its perfect during warm weather), and sometime I eat it as a spread. I top it on saltine crackers and snack on it. How about you, how do you eat your ube halaya?\r\n\r\nIf you will refer to the recipe below, you\u2019ll notice how easy it is to make your own Ube Halaya dish. However, I need to advise you to be a little patient when it comes to stirring the mixture until it gets thick. It took around 25 minutes to get the texture that I wanted. This means that I have to stir every minute to prevent the mixture from sticking on the bottom of the pot.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/VcZcga0s.jpg",
+         "icon":"http://i.imgur.com/VcZcga0b.jpg",
          "name":"Simple Ube Halaya",
          "time_to_complete":42.0
       },
@@ -3003,8 +3003,8 @@
          ],
          "description":"uko Ice Candy is a Filipino Ice Pop made from milk and young coconut. The young coconut is locally known in the Philippines as Buko. This is easily prepared by mixing all the ingredients together and pouring a part of it in small long plastic bags made for this purpose \u2014 these bags are often called ice candy bags.",
          "default_serving_size":2,
-         "icon":"http://i.imgur.com/P1e6E07s.jpg",
-         "name":"Buko ice candy",
+         "icon":"http://i.imgur.com/P1e6E07b.jpg",
+         "name":"Buko Ice Candy",
          "time_to_complete":20.0
       },
       "pk":31
@@ -3033,7 +3033,7 @@
          ],
          "description":"Salted Eggs and Tomato Salad or Itlog na maalat with kamatis is probably one of the easiest Filipino salad that I\u2019ve ever made. This dish is quick and very easy to prepare. It is best served as a side for grilled dishes.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/eg2JoYvs.jpg",
+         "icon":"http://i.imgur.com/eg2JoYvb.jpg",
          "name":"Salted Eggs and Tomato Salad",
          "time_to_complete":6.0
       },
@@ -3048,7 +3048,7 @@
          ],
          "description":"Broccoli Bacon Salad is a perfect salad recipe for bacon lovers out there that want to enjoy crisp and tasty broccoli with their beloved bacon. I think that I am describing myself here, unless there are some of you who loves bacon and want to make healthy salads with it once in a while.",
          "default_serving_size":3,
-         "icon":"http://i.imgur.com/StlXcKGs.jpg",
+         "icon":"http://i.imgur.com/StlXcKGb.jpg",
          "name":"Broccoli Bacon Salad",
          "time_to_complete":25.0
       },
@@ -3078,7 +3078,7 @@
          ],
          "description":"Easy Egg Salad is a quick and simple egg salad recipe that you will surely like. It makes use of basic ingredients; it is high in protein and low in carbohydrates; and you can enjoy it any way you prefer.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/WLDatcqs.jpg",
+         "icon":"http://i.imgur.com/WLDatcqb.jpg",
          "name":"Easy Egg Salad",
          "time_to_complete":30.0
       },
@@ -3094,7 +3094,7 @@
          ],
          "description":"\u201cRice for breakfast?\u201d were G\u2019s first words when he walked in on me in the kitchen, busy with this garlic fried rice at 7:30 in the morning. Well, isn\u2019t that really what sinangag is, using the leftover rice from yesterday\u2019s dinner for next day\u2019s almusal? Paired with eggs, tocino or daing, this garlic-reeked fried rice is simple, comfort food and just the right start for this Filipina\u2019s Monday.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/BNJDH9bs.jpg",
+         "icon":"http://i.imgur.com/BNJDH9bb.jpg",
          "name":"Fried Rice",
          "time_to_complete":25.0
       },
@@ -3109,8 +3109,8 @@
          ],
          "description":"Maja Blanca is a Filipino dessert made from coconut milk, cornstarch, and sugar. Often called Coconut Pudding, this luscious dessert is easy to make and the ingredients are very common.Unknown to many, the original Maja Blanca Recipe does not include corn and milk. In this recipe, I added whole sweet kernel corn and condensed milk for added taste and a more creamy texture.Since Christmas season is just around the corner, this would make a very good holiday dessert especially during potluck Christmas Parties and Noche Buena as well.\r\n\r\nPreparing maja blanca is easy. All you need to do is follow each step indicated in this maja blanca recipe. It is important that you give the coconut milk sometime to cook; it is also recommended that you try your best to mix all the ingredients until the texture becomes as smooth at it can be. For better results, cook the corn a little longer to release its flavor.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/IJ4vp0Js.jpg",
-         "name":"Maja blanca",
+         "icon":"http://i.imgur.com/IJ4vp0Jb.jpg",
+         "name":"Maja Blanca",
          "time_to_complete":43.0
       },
       "pk":38
@@ -3126,8 +3126,8 @@
          ],
          "description":"Chicken simmered in a tomato sauce with vegetables.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/FnqOC5as.jpg",
-         "name":"Chicken afritada",
+         "icon":"http://i.imgur.com/FnqOC5ab.jpg",
+         "name":"Chicken Afritada",
          "time_to_complete":72.0
       },
       "pk":39
@@ -3141,8 +3141,8 @@
          ],
          "description":"Looking for a sandwich you can grab and eat with one hand, WITHOUT the filling sliding out? You\u2019ve found it. Ham and cheese are rolled in a sheet of yeast dough and baked, yielding a stuffed sandwich that\u2019s a treat to eat.",
          "default_serving_size":12,
-         "icon":"http://i.imgur.com/UsmNOB6s.jpg",
-         "name":"Ham and Cheese Bread roll",
+         "icon":"http://i.imgur.com/UsmNOB6b.jpg",
+         "name":"Ham and Cheese Bread Roll",
          "time_to_complete":0.5
       },
       "pk":40
@@ -3156,7 +3156,7 @@
          ],
          "description":"I love baking Oatmeal Chocolate Chip Cookies simply because it is so good and quick to make. I enjoy it for breakfast with a glass of milk, and sometimes I eat it for dessert. Oatmeal Chocolate Chip Cookies always satisfy my craving. I am sharing this recipe so that you too can experience it for yourself.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/I64dGIgs.jpg",
+         "icon":"http://i.imgur.com/I64dGIgb.jpg",
          "name":"Oatmeal Chocolate Chip Cookies",
          "time_to_complete":24.0
       },
@@ -3171,7 +3171,7 @@
          ],
          "description":"Applesauce is a puree composed of stewed apples and honey or sugar and cinnamon. Some apple versions also makes us of other spices. Applesauce is not just baby food, even grown-ups such as myself enjoy having it once in a while. In fact, I like to have it for dessert.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/LuMKOSms.jpg",
+         "icon":"http://i.imgur.com/LuMKOSmb.jpg",
          "name":"Simple Applesauce",
          "time_to_complete":25.0
       },
@@ -3186,7 +3186,7 @@
          ],
          "description":"Buttered Puto is a variation of the famous steamed rice cake, Puto. This steamed mini cakes are usually eaten as dessert but most prefer to have them during breakfast (with hot coffee or chocolate) or mid-afternoon snack (usually eaten with dinuguan or blood stew). If you are looking for an easy puto recipe that you can follow, this is the one for you.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/87MuqFGs.jpg",
+         "icon":"http://i.imgur.com/87MuqFGb.jpg",
          "name":"Buttered Puto",
          "time_to_complete":35.0
       },
@@ -3201,7 +3201,7 @@
          ],
          "description":"Chocolate chip cookie still remains to be one of the most popular cookies to date.\r\n\r\nThis cookie variety needs no introduction. Because of its popularity, almost everyone knows about it. However, I think that this Chocolate Chip Cookie Recipe that we have here needs a little unveiling.\r\n\r\nYou can find tens or hundreds of Chocolate Chip Cookie Recipe in the internet and in many cookbooks. Each recipe has a distinguishing characteristic that make it stand out. After trying most of the recipes out there, I came up with a single recipe that has the characteristics that I like: simple, delicious, and comforting. This is even be better with a cold glass of milk.",
          "default_serving_size":12,
-         "icon":"http://i.imgur.com/CMj0WF1s.jpg",
+         "icon":"http://i.imgur.com/CMj0WF1b.jpg",
          "name":"Chocolate Chip Cookie",
          "time_to_complete":20.0
       },
@@ -3216,7 +3216,7 @@
          ],
          "description":"This Crab and Pork Shumai Recipe produce one of the best shumai or siomai that I have tried. Crab and pork seems to be a good combination when done the appropriate way. Before we move further, please let me clarify that shumai, siomai, and shaomai is one and the same. The difference in names (or spelling of names) has something to do with geographical location. For example, shumai is called siomai in the Philippines, and siomay in Indonesia. Of course each location has a different way to prepare this dish, but the results are all delicious.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/XscytnTs.jpg",
+         "icon":"http://i.imgur.com/XscytnTb.jpg",
          "name":"Crab and Pork Shumai",
          "time_to_complete":30.0
       },
@@ -3231,7 +3231,7 @@
          ],
          "description":"This Snails with Spinach in Coconut Milk Recipe is similar to a Filipino recipe called \u201cGinataang Kuhol\u201d. While the later involves golden snails (kuhol) and water spinach (kangkong), this recipe makes use of sea snails and fresh spinach; the rest of the ingredients are similar.",
          "default_serving_size":5,
-         "icon":"http://i.imgur.com/fqNdp9As.jpg",
+         "icon":"http://i.imgur.com/fqNdp9Ab.jpg",
          "name":"Snails with Spinach in Coconut Milk",
          "time_to_complete":30.0
       },
@@ -3246,7 +3246,7 @@
          ],
          "description":"Calamari is probably one of the easiest and quickest appetizers to prepare. Every time we order calamari restaurants, I was always surprised on how fast the servers get back to us with the order already with them \u2014 still hot and crunchy on the outside, while very soft in the inside. That is how a perfect calamari should be, in my opinion. I personally like the calamari fritti of Lou Malnati\u2019s and the spicy calamari of Olive Garden is also a good one. The good news is you do not need to dine-in any restaurant to enjoy a perfectly delicious calamari appetizer. You can always make this in your home kitchen, but make sure to open the windows and vent, or else your place will smell appetizing too.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/R30gjlOs.jpg",
+         "icon":"http://i.imgur.com/R30gjlOb.jpg",
          "name":"Easy Calamari",
          "time_to_complete":20.0
       },
@@ -3261,7 +3261,7 @@
          ],
          "description":"Panara is an appetizer dish made from chopped upo (bottle gourd) and minced shrimp wrapped in a wonton wrapper and deep fried until golden brown. This dish is comparable to pinsec frito and fried siomai.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/zoG0g7xs.jpg",
+         "icon":"http://i.imgur.com/zoG0g7xb.jpg",
          "name":"Panara",
          "time_to_complete":20.0
       },
@@ -3276,7 +3276,7 @@
          ],
          "description":"This Chicken Siomai recipe is a variation of pork siomai or shaomai. This recipe makes use of lean ground chicken plus additional vegetables and seasonings.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/Pzr1GUxs.jpg",
+         "icon":"http://i.imgur.com/Pzr1GUxb.jpg",
          "name":"Chicken Siomai",
          "time_to_complete":40.0
       },
@@ -3291,7 +3291,7 @@
          ],
          "description":"Saging con Hielo is a simple dessert that I like to have during summertime. It is simply \u201cminatamis na saging\u201d (banana with caramel sauce) topped with shaved ice and milk.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/sfT875bs.jpg",
+         "icon":"http://i.imgur.com/sfT875bb.jpg",
          "name":"Saging con Hielo",
          "time_to_complete":30.0
       },
@@ -3306,7 +3306,7 @@
          ],
          "description":"Banana Muffins are really good. It goes well with coffee, hot chocolate, soda, and almost any drink. It is quick and easy to prepare. This fool proof recipe and video will guide you on how to make your own banana muffins as easy as possible.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/5Jbdd82s.jpg",
+         "icon":"http://i.imgur.com/5Jbdd82b.jpg",
          "name":"Easy Banana Muffin",
          "time_to_complete":40.0
       },
@@ -3321,7 +3321,7 @@
          ],
          "description":"It has been a while since I made Peach Pie. Back then, I use fresh ripe peaches. Since time is of the essence these days, I am looking for alternative ingredients that can speed up the process. For this recipe, we will be using canned sliced peaches.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/v4Xfd1ts.jpg",
+         "icon":"http://i.imgur.com/v4Xfd1tb.jpg",
          "name":"Peach Pie",
          "time_to_complete":40.0
       },
@@ -3336,7 +3336,7 @@
          ],
          "description":"Ghostly Dark Chocolate Cupcake is my quick and easy solution for busy people during Halloween. This dark rich chocolate cupcake can be done easily with lesser preparation time because we leveraged on ready-made cupcake icing, instead of creating one from scratch.",
          "default_serving_size":3,
-         "icon":"http://i.imgur.com/ooEmK60s.jpg",
+         "icon":"http://i.imgur.com/ooEmK60b.jpg",
          "name":"Ghostly Dark Chocolate Cupcake",
          "time_to_complete":30.0
       },
@@ -3354,8 +3354,8 @@
          ],
          "description":"Menudo is a traditional stew from the Philippines. Unlike the Mexican dish of the same name, it is not made with tripe and red chili sauce but rather with sliced pork and calf's liver in tomato sauce.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/7VmoTVys.jpg",
-         "name":"Pork menudo",
+         "icon":"http://i.imgur.com/7VmoTVyb.jpg",
+         "name":"Pork Menudo",
          "time_to_complete":70.0
       },
       "pk":56
@@ -3372,7 +3372,7 @@
          ],
          "description":"Bistek Tagalog is the Filipino version of the Beefsteak. It is comprised of thinly sliced beef cooked in soy sauce and lemon juice and garnished with caramelized onion rings.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/DlSIh9as.jpg",
+         "icon":"http://i.imgur.com/DlSIh9ab.jpg",
          "name":"Bistek Tagalog",
          "time_to_complete":100.0
       },
@@ -3388,8 +3388,8 @@
          ],
          "description":"Kale and Tuna Laing is a version of the famous laing (taro leaves cooked in coconut milk). This recipe is unique because I used kale leaves as an alternative for taro leaves. This is best for people who are abroad and don\u2019t have quick access to dried taro leaves (\u201cdahon ng gabi\u201d).",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/zdJTq7Rs.jpg",
-         "name":"Kale and tuna laing recipe",
+         "icon":"http://i.imgur.com/zdJTq7Rb.jpg",
+         "name":"Kale and Tuna Laing",
          "time_to_complete":100.0
       },
       "pk":58
@@ -3406,7 +3406,7 @@
          ],
          "description":"Tinolang Manok and some called them Nilagang Manok is another filipino food dish that I usually cook here in Canada. Tinolang manok recipe is also one of the filipino recipe that is easy to cook. But as a first time immigrant in Canada, buying filipino ingredients like papaya, sayote, chili leaves or malunggay is hard to find specially if you are staying in the rural areas where Asian store is hard to find.\r\n",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/KxM22sis.jpg",
+         "icon":"http://i.imgur.com/KxM22sib.jpg",
          "name":"Tinolang Manok",
          "time_to_complete":40.0
       },
@@ -3421,8 +3421,8 @@
          ],
          "description":"Chop suey is a dish in American Chinese cuisine and other forms of overseas Chinese cuisine, consisting of meat (often chicken, fish, beef, prawns, or pork) and eggs, cooked quickly with vegetables such as bean sprouts, cabbage, and celery and bound in a starch-thickened sauce. It is typically served with rice but can become the Chinese-American form of chow mein with the addition of stir-fried noodles.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/CQPyAg0s.jpg",
-         "name":"Pork chop suey",
+         "icon":"http://i.imgur.com/CQPyAg0b.jpg",
+         "name":"Pork Chop Suey",
          "time_to_complete":40.0
       },
       "pk":60
@@ -3439,8 +3439,8 @@
          ],
          "description":"This Baked Chicken Parmesan Recipe is a winner. It is simple to make and all you have to do is bake it in the oven \u2013 although you will still need to cook the spaghetti noodles. If you are feeling lazy (and I am always feeling this way, so you are not alone), skip the spaghetti and eat it with bread or whatever side dish is available in your pantry.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/u4pq7ees.jpg",
-         "name":"Baked chicken parmesan recipe",
+         "icon":"http://i.imgur.com/u4pq7eeb.jpg",
+         "name":"Baked Chicken Parmesan",
          "time_to_complete":80.0
       },
       "pk":61
@@ -3454,8 +3454,8 @@
          ],
          "description":"Sapin sapin",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/RiqGjuBs.jpg",
-         "name":"Sapin sapin",
+         "icon":"http://i.imgur.com/RiqGjuBb.jpg",
+         "name":"Sapin Sapin",
          "time_to_complete":60.0
       },
       "pk":62
@@ -3469,7 +3469,7 @@
          ],
          "description":"Simple Orange Chicken Tenders is a quick and easy chicken dish that you will love. Did I mention that it is simple too? This dish is a hit among kids and kids at heart. If you have an extra 25 minutes to spare, you should give this a try.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/X8q7PsEs.jpg",
+         "icon":"http://i.imgur.com/X8q7PsEb.jpg",
          "name":"Simple Orange Chicken Tenders",
          "time_to_complete":25.0
       },
@@ -3484,7 +3484,7 @@
          ],
          "description":"One of the best appetizers that I had is Teriyaki Chicken Lettuce Wrap. It is flavorful and delicious, and easy to make. This is something that you should include in your meal plan especially this spring and summer.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/1oDC6Hps.jpg",
+         "icon":"http://i.imgur.com/1oDC6Hpb.jpg",
          "name":"Teriyaki Chicken Lettuce Wrap",
          "time_to_complete":50.0
       },
@@ -3499,7 +3499,7 @@
          ],
          "description":"Chicken Liver and Gizzard Adobo is known locally in the Philippines as Adobong Atay at Balun-balunan. This is a traditional Filipino dish cooked inadobo style. This is a simple and budget friendly Filipino recipe that is worth trying.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/cBztRAAs.jpg",
+         "icon":"http://i.imgur.com/cBztRAAb.jpg",
          "name":"Chicken Liver and Gizzard Adobo",
          "time_to_complete":52.0
       },
@@ -3514,7 +3514,7 @@
          ],
          "description":"Pinaupong Manok sa Asin is a simple Filipino Steamed Chicken dish. This recipe makes use of coarse sea salt and pepper as seasonings. There is no water used while steaming the chicken. The liquid is derived from the juice and oil of the chicken which naturally drips in the process.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/MH0nwZ2s.jpg",
+         "icon":"http://i.imgur.com/MH0nwZ2b.jpg",
          "name":"Pinaupong Manok sa Asin",
          "time_to_complete":105.0
       },
@@ -3529,7 +3529,7 @@
          ],
          "description":"Patis Fried Chicken is a crispy and tasty fried chicken recipe that is best eaten with rice. This fried chicken dish is marinated in fish sauce and ground black pepper before coated in flour and cornstarch mixture. This makes Patis fried chicken tasty and crispy.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/nFVRbsFs.jpg",
+         "icon":"http://i.imgur.com/nFVRbsFb.jpg",
          "name":"Patis Fried Chicken",
          "time_to_complete":40.0
       },
@@ -3544,7 +3544,7 @@
          ],
          "description":"Tinola is a ginger and onion based soup with chicken as the usual main ingredient. Chicken tinola is an authentic Filipino main dish and best complimented with green papaya wedges (an alternative is chayote) and chili pepper leaves. As a traditional dish, the chicken is usually cooked in low heat for quite some time to bring out the natural flavor. This dish is best served during cold and rainy weather because of the warming effect of the soup.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/8LQknmAs.jpg",
+         "icon":"http://i.imgur.com/8LQknmAb.jpg",
          "name":"Chicken Tinola",
          "time_to_complete":70.0
       },
@@ -3559,7 +3559,7 @@
          ],
          "description":"Chicken Guisantes or Chicken and Green Peas Stew is my go to dish when I want to eat something simple yet satisfying for dinner. I like chicken guisantes because its taste is not overpowering and it is also easy to prepare.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/hM9Xtuts.jpg",
+         "icon":"http://i.imgur.com/hM9Xtutb.jpg",
          "name":"Chicken Guisantes",
          "time_to_complete":60.0
       },
@@ -3574,7 +3574,7 @@
          ],
          "description":"Kale and Tuna Laing is a version of the famous laing (taro leaves cooked in coconut milk). This recipe is unique because I used kale leaves as an alternative for taro leaves. This is best for people who are abroad and don\u2019t have quick access to dried taro leaves (\u201cdahon ng gabi\u201d).",
          "default_serving_size":5,
-         "icon":"http://i.imgur.com/vArbpsas.jpg",
+         "icon":"http://i.imgur.com/vArbpsab.jpg",
          "name":"Kale and Tuna Laing",
          "time_to_complete":100.0
       },
@@ -3589,7 +3589,7 @@
          ],
          "description":"Simple Lo Mein is  what I call this vegetable lo mein recipe because it is really simple to make and it also tastes delicious. Imagine a delicious noodle dish that you can make in less than 30 minutes, it doesn\u2019t get better than this.",
          "default_serving_size":4,
-         "icon":"http://i.imgur.com/a3G7HAUs.jpg",
+         "icon":"http://i.imgur.com/a3G7HAUb.jpg",
          "name":"Simple Lo Mein",
          "time_to_complete":30.0
       },
@@ -3604,7 +3604,7 @@
          ],
          "description":"Simplicity is beauty, just like what you are seeing now. My wife made this simple stuffed eggplant out of some available ingredients that we have in the fridge and everything went well. To tell you the truth, it was above my expectations in terms of taste and presentation \u2014 and this was done in the simplest possible way.",
          "default_serving_size":2,
-         "icon":"http://i.imgur.com/itHb369s.jpg",
+         "icon":"http://i.imgur.com/itHb369b.jpg",
          "name":"Stuffed Eggplant",
          "time_to_complete":25.0
       },
@@ -3619,7 +3619,7 @@
          ],
          "description":"Sweet Pepper Relyeno or Stuffed Sweet Peppers is an appetizer or main dish consisting of mini sweet peppers and ground pork. The ground pork was combined with spices and seasonings (which is somewhat similar to the mix in Lumpiang Shanghai), topped over the sweet pepper, pan-fried, and finished-up by baking.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/vCoyxems.jpg",
+         "icon":"http://i.imgur.com/vCoyxemb.jpg",
          "name":"Sweet Pepper Relyeno",
          "time_to_complete":50.0
       },
@@ -3634,7 +3634,7 @@
          ],
          "description":"Laing with Shrimp is not your typical laing recipe because it makes use of shrimp as an additional ingredient. It might have been common to use shrimp and other seafood ingredients in some version of laing, but the original laing version rarely use shrimp.",
          "default_serving_size":8,
-         "icon":"http://i.imgur.com/TYLb7FIs.jpg",
+         "icon":"http://i.imgur.com/TYLb7FIb.jpg",
          "name":"Laing with Shrimp",
          "time_to_complete":70.0
       },
@@ -3650,7 +3650,7 @@
          ],
          "description":"\"Bread, butter and Cheddar cheese - here's a way to make this classic sandwich in a nonstick pan.\" ",
          "default_serving_size":20,
-         "icon":"http://i.imgur.com/CFRETwRs.jpg",
+         "icon":"http://i.imgur.com/CFRETwRb.jpg",
          "name":"Grilled Cheese Sandwich",
          "time_to_complete":20.0
       },
@@ -3666,7 +3666,7 @@
          ],
          "description":"Crispy Spinach is an appetizer dish where in spinach are dipped in a batter and fried until crispy. This is a very simple recipe that takes minimal effort and time to prepare. If you like having Chicharon (pork rinds) then you might want to try this recipe as a healthier alternative \u2013 just make sure to line paper towels on the plate to absorb excess oil.",
          "default_serving_size":6,
-         "icon":"http://i.imgur.com/AnFxUfrs.jpg",
+         "icon":"http://i.imgur.com/AnFxUfrb.jpg",
          "name":"Crispy Spinach",
          "time_to_complete":10.0
       },
@@ -3682,7 +3682,7 @@
          ],
          "description":"Poaching eggs couldn\u2019t be easier. It\u2019s also a great low-calorie way to prepare eggs\u2014you don\u2019t need to use added fat to cook them, as you would with scrambled or fried eggs.",
          "default_serving_size":1,
-         "icon":"http://i.imgur.com/4iFtflJs.jpg",
+         "icon":"http://i.imgur.com/4iFtflJb.jpg",
          "name":"Easy Poached Eggs",
          "time_to_complete":5.0
       },
@@ -3698,8 +3698,8 @@
          ],
          "description":"Whether you like them soft-boiled or hard boiled this recipe will show you how to perfectly boil an egg and then easily peel it. Follow these steps on how to hard-boil eggs and get ready for tender whites and golden yellow yolks every time.\r\n\r\nFor very fresh eggs, you might find that the bottom of the egg (where the crack is) is easy to peel but the top is still problematic. For these eggs, just crack them all over using a blunt object such as the back of a spoon after they are boiled, and then soak them in cold water for 30 minutes. This should make the shell practically fall off.",
          "default_serving_size":6,
-         "icon":"https://i.imgur.com/rbWgGyJs.jpg",
-         "name":"Hard-boiled eggs",
+         "icon":"https://i.imgur.com/rbWgGyJb.jpg",
+         "name":"Hard-boiled Eggs",
          "time_to_complete":30.0
       },
       "pk":78
