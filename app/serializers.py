@@ -26,7 +26,7 @@ class StepSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Step
-        fields = ('sequence', 'instruction')
+        fields = ('pk', 'sequence', 'instruction')
 
 
 class IngredientTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -50,7 +50,7 @@ class RecipeComponentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.RecipeComponent
-        fields = ('quantity', 'adjective', 'unit_of_measure',
+        fields = ('pk', 'quantity', 'adjective', 'unit_of_measure',
                   'ingredient', 'extra')
 
 
