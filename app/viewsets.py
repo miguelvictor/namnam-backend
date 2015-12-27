@@ -110,7 +110,7 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
                         'missing': difference,
                     })
 
-        nearly_there_recipes.sort(key=lambda x: x['missing_count'])
+        nearly_there_recipes.sort(key=lambda x: len(x['missing']))
 
         return JsonResponse({
             'recipes': [recipe.pk for recipe in exact_recipes],
