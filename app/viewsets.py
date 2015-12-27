@@ -52,7 +52,7 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
             return Response('Rating must be an integer', status=400)
 
     @list_route()
-    def recommend(self, request):
+    def recommend_old(self, request):
         params = set(normalize_recipe_params(request.GET.get('q', None)))
 
         exact_recipes = []
@@ -83,6 +83,38 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
             'recipes': RecipeSerializer(exact_recipes, many=True).data,
             'nearly_there': json.JSONDecoder().decode(
                 json.dumps(nearly_there_recipes)),
+        })
+
+    @list_route()
+    def recommend(self, request):
+        params = set(normalize_recipe_params(request.GET.get('q', None)))
+
+        exact_recipes = []
+        nearly_there_recipes = []
+
+        for recipe in models.Recipe.objects.all():
+            ingredients = set([x.ingredient.id
+                               for x in recipe.recipe_components.all()])
+
+            intersection = params & ingredients
+
+            if len(intersection) > 0:
+
+                difference = ingredients - intersection
+
+                if len(difference) is 0:
+                    exact_recipes.append(recipe)
+                else:
+                    nearly_there_recipes.append({
+                        'recipe': recipe.pk,
+                        'missing': difference,
+                    })
+
+        nearly_there_recipes.sort(key=lambda x: x['missing_count'])
+
+        return JsonResponse({
+            'recipes': [recipe.pk for recipe in exact_recipes],
+            'nearly_there': nearly_there_recipes
         })
 
 
