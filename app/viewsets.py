@@ -107,7 +107,7 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
                 else:
                     nearly_there_recipes.append({
                         'recipe': recipe.pk,
-                        'missing': difference,
+                        'missing': list(difference),
                     })
 
         nearly_there_recipes.sort(key=lambda x: len(x['missing']))
