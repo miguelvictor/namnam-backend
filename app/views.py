@@ -85,7 +85,7 @@ def signin(request):
         if user.check_password(password):
             return get_access_token(user)
         else:
-            return Response('Unauthorized', status=400)
+            return Response('Incorrect password', status=400)
     except User.DoesNotExist:
         try:
             user = User.objects.get(email=identifier)
@@ -95,7 +95,7 @@ def signin(request):
             else:
                 return Response('Unauthorized', status=400)
         except User.DoesNotExist:
-            return Response('User Not Found', status=404)
+            return Response('Account does not exist', status=404)
 
 
 @api_view(['POST'])
