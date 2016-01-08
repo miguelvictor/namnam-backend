@@ -23,6 +23,14 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
     search_fields = 'name',
     ordering = 'name',
 
+    def get_queryset(self):
+        type = self.request.query_params.get('recipe_type', None)
+
+        if type is not None:
+            return self.queryset.filter(categories__id=type)
+
+        return super(RecipeViewSet, self).get_queryset()
+
     @detail_route(methods=['post'])
     @permission_classes((IsAuthenticated, ))
     def rate(self, request, pk=None):
