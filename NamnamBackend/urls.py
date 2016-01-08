@@ -9,6 +9,9 @@ router = routers.DefaultRouter()
 router.register(r'recipes', viewsets.RecipeViewSet)
 router.register(r'ingredients', viewsets.IngredientViewSet)
 
+admin.site.site_header = 'Namnam Admin'
+admin.site.site_title = 'Namnam Admin'
+
 urlpatterns = [
     url(r'^api/', include(router.urls)),
     url(r'^api-auth/', include('app.urls', namespace='app')),

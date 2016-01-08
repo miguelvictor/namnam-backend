@@ -40,6 +40,7 @@ class RecipeAdmin(admin.ModelAdmin):
     inlines = (RecipeInline, StepInline)
     search_fields = 'name', 'description'
     list_filter = 'categories',
+    list_per_page = 10
 
 
 class IngredientAdmin(admin.ModelAdmin):
@@ -50,6 +51,7 @@ class IngredientAdmin(admin.ModelAdmin):
 
     search_fields = 'name', 'description'
     list_filter = 'type',
+    list_per_page = 10
 
 
 class RatingAdmin(admin.ModelAdmin):
