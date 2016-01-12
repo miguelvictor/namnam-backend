@@ -26,7 +26,7 @@ def signin_google(request):
             password='12345',
         )
 
-        user.email = email
+        user.email = 'REG_GOOGLE_' + email
         user.save()
 
         user.profile = UserProfile()
@@ -57,7 +57,7 @@ def signin_fb(request):
             password='12345',
         )
 
-        user.email = email
+        user.email = 'REG_FACEBOOK_' + email
         user.save()
 
         user.profile = UserProfile()
