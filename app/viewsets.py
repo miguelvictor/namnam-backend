@@ -24,7 +24,7 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
     ordering = 'name',
 
     def get_queryset(self):
-        type = self.request.query_params.get('recipe_type', None)
+        type = self.request.query_params.get('type', None)
 
         if type is not None:
             return self.queryset.filter(categories__id=type)
@@ -51,9 +51,9 @@ class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
                 recipe_rating_num = len(recipe_ratings)
 
                 return JsonResponse({
-                        'average_rating': recipe_avg_rating,
-                        'number_of_ratings': recipe_rating_num,
-                    })
+                    'average_rating': recipe_avg_rating,
+                    'number_of_ratings': recipe_rating_num,
+                })
             except models.Recipe.DoesNotExist:
                 return Response('Recipe not found', status=404)
         except ValueError:
@@ -147,3 +147,11 @@ class IngredientViewSet(viewsets.ReadOnlyModelViewSet):
     filter_backends = filters.SearchFilter, filters.OrderingFilter
     search_fields = 'name',
     ordering = 'name',
+
+    def get_queryset(self):
+        type = self.request.query_params.get('type', None)
+
+        if type is not None:
+            return self.queryset.filter(categories__id=type)
+
+        return super(IngredientViewSet, self).get_queryset()
