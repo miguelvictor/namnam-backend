@@ -6,6 +6,8 @@ from app import viewsets
 from rest_framework import routers
 
 router = routers.DefaultRouter()
+router.register(r'recipe-types', viewsets.RecipeTypeViewSet)
+router.register(r'ingredient-types', viewsets.IngredientTypeViewSet)
 router.register(r'recipes', viewsets.RecipeViewSet)
 router.register(r'ingredients', viewsets.IngredientViewSet)
 
