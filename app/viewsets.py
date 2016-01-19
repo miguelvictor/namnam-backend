@@ -152,6 +152,6 @@ class IngredientViewSet(viewsets.ReadOnlyModelViewSet):
         type = self.request.query_params.get('type', None)
 
         if type is not None:
-            return self.queryset.filter(categories__id=type)
+            return self.queryset.filter(type__id=type)
 
         return super(IngredientViewSet, self).get_queryset()
