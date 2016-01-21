@@ -64,11 +64,28 @@ class RatingAdmin(admin.ModelAdmin):
     list_display = ('recipe', 'rating', 'who')
 
 
-admin.site.register(models.RecipeType)
-admin.site.register(models.IngredientType)
+class RecipeTypeAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None, {'fields': ['name', 'picture']})
+    ]
+
+    list_display = ('name')
+    list_per_page = 10
+
+
+class IngredientTypeAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None, {'fields': ['name', 'picture']})
+    ]
+
+    list_display = ('name')
+    list_per_page = 10
+
 admin.site.register(models.RecipeComponent)
 admin.site.register(models.UnitOfMeasure)
 admin.site.register(models.Recipe, RecipeAdmin)
+admin.site.register(models.RecipeType, RecipeTypeAdmin)
 admin.site.register(models.Ingredient, IngredientAdmin)
+admin.site.register(models.IngredientType, IngredientTypeAdmin)
 admin.site.register(models.Rating, RatingAdmin)
 admin.site.register(models.UserProfile, UserProfileAdmin)
