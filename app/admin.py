@@ -62,6 +62,7 @@ class RatingAdmin(admin.ModelAdmin):
     search_fields = 'recipe', 'rating', 'who'
     list_filter = 'recipe', 'rating', 'who'
     list_display = ('recipe', 'rating', 'who')
+    list_per_page = 10
 
 
 class RecipeTypeAdmin(admin.ModelAdmin):
@@ -69,7 +70,7 @@ class RecipeTypeAdmin(admin.ModelAdmin):
         (None, {'fields': ['name', 'picture']})
     ]
 
-    list_display = ('name')
+    list_display = ('name',)
     list_per_page = 10
 
 
@@ -78,7 +79,7 @@ class IngredientTypeAdmin(admin.ModelAdmin):
         (None, {'fields': ['name', 'picture']})
     ]
 
-    list_display = ('name')
+    list_display = ('name',)
     list_per_page = 10
 
 admin.site.register(models.RecipeComponent)
