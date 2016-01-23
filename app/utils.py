@@ -1,3 +1,6 @@
+import re
+import uuid
+from django.db import IntegrityError
 from django.http import JsonResponse
 from django.utils.timezone import now, timedelta
 
@@ -80,3 +83,16 @@ def normalize_recipe_params(ingredients):
         return []
 
     return [int(x) for x in ingredients.split(',')]
+
+
+def generate_slug(model):
+    '''
+    Generates UUID for User Profiles
+    '''
+    generated_uuid = uuid.uuid4().bytes.encode('base64')
+    generated_uuid = re.sub('[^A-Za-z0-9]+', '', generated_uuid)
+    try:
+        model.objects.get(activation_key=generated_uuid)
+    except (model.DoesNotExist, IntegrityError):
+        return generated_uuid[:5]
+    return generate_slug(model)

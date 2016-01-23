@@ -1,4 +1,6 @@
+from django.conf import settings
 from django.contrib.auth.models import User
+from django.core.mail.message import EmailMessage
 from django.views.generic.base import TemplateView
 
 from app.models import UserProfile, FacebookProfile, GoogleProfile
@@ -98,6 +100,17 @@ def signin(request):
             return Response('Account does not exist', status=404)
 
 
+def createMail(user):
+    key = user.profile.activation_key
+    email_subject = 'NamNam Account Confirmation'
+    email_body = "Hi %s,<br/>Confirming your email address will give you full access to Nam-Nam. Your Activation Code: <br/><center><h3 style=\"background:black;color:white;\">%s</h3></center> You can also click the link below to confirm otherwise ignore this message.<br/><a href=\"http://activate/%s\">Activate Email</a></br>Thank you,<br/> Jc and Friends Inc." % (
+        user, key, key)
+    mail = EmailMessage(
+        email_subject, email_body, settings.EMAIL_HOST_USER, [user.email])
+    mail.content_subtype = "html"
+    mail.send()
+
+
 @api_view(['POST'])
 def register(request):
     if not is_client_known(request):
@@ -116,6 +129,7 @@ def register(request):
 
         user.profile = UserProfile()
         user.profile.save()
+        createMail(user)
 
         return get_access_token(user)
 

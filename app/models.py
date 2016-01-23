@@ -1,5 +1,7 @@
+from django.apps import apps
 from django.db import models
 from django.contrib.auth.models import User
+from .utils import generate_slug
 
 from app import inflect
 
@@ -11,8 +13,16 @@ USER_STATES = (
 )
 
 
+def generate_slug_profile():
+    model = apps.get_model(app_label='app', model_name='UserProfile')
+    generate_slug(model)
+
+
 class UserProfile(models.Model):
     user = models.OneToOneField(User, related_name='profile')
+    activation_key = models.CharField(
+        max_length=5, blank=True, default=generate_slug_profile)
+    activated = models.BooleanField(default=False)
     state = models.CharField(
         max_length=255, choices=USER_STATES, default='clean')
 
