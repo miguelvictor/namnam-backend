@@ -94,5 +94,5 @@ def generate_slug(model):
     try:
         model.objects.get(activation_key=generated_uuid)
     except (model.DoesNotExist, IntegrityError):
-        return generated_uuid[:5]
+        return generated_uuid
     return generate_slug()
