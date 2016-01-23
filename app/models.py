@@ -21,7 +21,7 @@ def generate_slug_profile():
 class UserProfile(models.Model):
     user = models.OneToOneField(User, related_name='profile')
     activation_key = models.CharField(
-        max_length=5, blank=True, default=generate_slug_profile)
+        max_length=5, blank=True)
     activated = models.BooleanField(default=False)
     state = models.CharField(
         max_length=255, choices=USER_STATES, default='clean')
