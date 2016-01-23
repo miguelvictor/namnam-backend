@@ -101,7 +101,7 @@ def signin(request):
 
 
 def createMail(user):
-    key = user.profile.activation_key
+    key = user.profile.activationKey
     email_subject = 'NamNam Account Confirmation'
     email_body = "Hi %s,<br/>Confirming your email address will give you full access to Nam-Nam. Your Activation Code: <br/><center><h3 style=\"background:black;color:white;\">%s</h3></center> You can also click the link below to confirm otherwise ignore this message.<br/><a href=\"http://activate/%s\">Activate Email</a></br>Thank you,<br/> Jc and Friends Inc." % (
         user, key, key)

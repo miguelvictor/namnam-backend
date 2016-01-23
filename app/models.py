@@ -13,14 +13,14 @@ USER_STATES = (
 )
 
 
-def generate_slug_profile():
-    model = apps.get_model(app_label='app', model_name='UserProfile')
-    return generate_slug(model)
+# def generate_slug_profile():
+#     model = apps.get_model(app_label='app', model_name='UserProfile')
+#     return generate_slug(model)
 
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, related_name='profile')
-    activation_key = models.CharField(
+    activationKey = models.CharField(
         max_length=5, blank=True)
     activated = models.BooleanField(default=False)
     state = models.CharField(
