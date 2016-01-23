@@ -130,7 +130,6 @@ def register(request):
         user.profile = UserProfile()
         user.profile.save()
         createMail(user)
-
         return get_access_token(user)
 
     return Response(serialized._errors, status=400)

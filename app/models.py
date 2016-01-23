@@ -15,7 +15,7 @@ USER_STATES = (
 
 def generate_slug_profile():
     model = apps.get_model(app_label='app', model_name='UserProfile')
-    generate_slug(model)
+    return generate_slug(model)
 
 
 class UserProfile(models.Model):
