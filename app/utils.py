@@ -90,7 +90,7 @@ def generate_slug(model):
     Generates UUID for User Profiles
     '''
     generated_uuid = uuid.uuid4().bytes.encode('base64')
-    generated_uuid = re.sub('[^A-Za-z0-9]+', '', generated_uuid)
+    generated_uuid = re.sub('[^A-Za-z0-9]+', '', generated_uuid)[:5]
     try:
         model.objects.get(activation_key=generated_uuid)
     except (model.DoesNotExist, IntegrityError):
