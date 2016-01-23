@@ -1,7 +1,7 @@
-from django.apps import apps
+# from django.apps import apps
 from django.db import models
 from django.contrib.auth.models import User
-from .utils import generate_slug
+# from .utils import generate_slug
 
 from app import inflect
 

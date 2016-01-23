@@ -7,13 +7,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('app', '0005_auto_20160123_0909'),
+        ('app', '0004_auto_20151222_0710'),
     ]
 
     operations = [
-        migrations.AlterField(
+        migrations.AddField(
             model_name='userprofile',
-            name='activation_key',
+            name='activated',
+            field=models.BooleanField(default=False),
+        ),
+        migrations.AddField(
+            model_name='userprofile',
+            name='activationKey',
             field=models.CharField(max_length=5, blank=True),
         ),
     ]
